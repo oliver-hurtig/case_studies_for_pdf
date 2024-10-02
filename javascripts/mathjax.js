@@ -5,9 +5,10 @@ window.MathJax = {
       displayMath: [["\\[", "\\]"]],
       processEscapes: true,
       processEnvironments: true,
-      packages: {'[+]': ['textmacros']}
+      packages: {'[+]': ['textmacros']},
+      textmacros: {packages: {'[+]': ['textcomp']}},
     },    
-    textmacros: {packages: {'[+]': ['textcomp']}},
+    
     options: {
       ignoreHtmlClass: ".*|",
       processHtmlClass: "arithmatex"
