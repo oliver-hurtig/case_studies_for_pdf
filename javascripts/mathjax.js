@@ -1,12 +1,9 @@
 window.MathJax = {
-    loader: {load: ['[tex]/textmacros', '[tex]/textcomp']},
     tex: {
       inlineMath: [["\\(", "\\)"]],
       displayMath: [["\\[", "\\]"]],
       processEscapes: true,
       processEnvironments: true,
-      packages: {'[+]': ['textmacros']},
-      textmacros: {packages: {'[+]': ['textcomp']}},
     },    
     
     options: {
