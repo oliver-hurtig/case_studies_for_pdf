@@ -408,12 +408,47 @@
 <p>Fully renewable electricity is attributed zero GHG emissions. Therefore, the only emissions come from auxiliaries.</p>
 <p>They are allocated to the co-products by the economic value (15(f), because oxygen has no energy content).</p>
 <h2 id="assumptions">Assumptions:</h2>
-<p>Fully renewable electricity carbon intensity: <span class="arithmatex">\(ci_{ren} = 0\ \frac{g\ CO_{2}eq}{kWh}\)</span></p>
-<p>Efficiency of the electrolyser <span class="arithmatex">\(\eta_{ely} = 60\%\)</span></p>
-<p>Auxiliaries carbon intensity: <span class="arithmatex">\(ci_{aux} = 5\ \frac{g\ CO_{2}eq}{{MJ}_{hydrogen}}\)</span><br />
-economic value of RFNBO hydrogen: <span class="arithmatex">\(v_{hydrogen} = 6\ \frac{€}{{kg}_{hydrogen}}\)</span><br />
-economic value of oxygen: <span class="arithmatex">\(v_{oxygen} = 0.3\ \frac{€}{{kg}_{oxygen}}\)</span><br />
-mass of produced oxygen per kg of hydrogen: <span class="arithmatex">\(r_{oh} = 8\ \frac{{kg}_{oxygen}}{{kg}_{hydrogen}}\)</span></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Symbol</th>
+<th>Example value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fully renewable electricity carbon intensity</td>
+<td>$ci_{ren}</td>
+<td>0 \frac{g CO_{2}eq}{kWh}$</td>
+</tr>
+<tr>
+<td>Efficiency of the electrolyser</td>
+<td>$\eta_{ely}</td>
+<td>60\%$</td>
+</tr>
+<tr>
+<td>Auxiliaries carbon intensity</td>
+<td>$ci_{aux}</td>
+<td>5 \frac{g CO_{2}eq}{{MJ}_{hydrogen}}$</td>
+</tr>
+<tr>
+<td>economic value of RFNBO hydrogen</td>
+<td>$v_{hydrogen}</td>
+<td>6 \frac{€}{{kg}_{hydrogen}}$</td>
+</tr>
+<tr>
+<td>economic value of oxygen</td>
+<td>$v_{oxygen}</td>
+<td>0.3 \frac{€}{{kg}_{oxygen}}$</td>
+</tr>
+<tr>
+<td>mass of produced oxygen per kg of hydrogen</td>
+<td>$r_{oh}</td>
+<td>8 \frac{{kg}<em hydrogen="hydrogen">{oxygen}}{{kg}</em>$}</td>
+</tr>
+</tbody>
+</table>
 <h2 id="calculation">Calculation:</h2>
 <p>Emissions attributed to hydrogen: $E = ci_{ren}<em>\eta +  {ci}_{aux}</em>\frac{v_{hydrogen}}{v_{hydrogen} + v_{oxygen}*r_{oh} }  = 3.57\frac{g CO_{2}eq}{{MJ}_{hydrogen}} $</p>
 <p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ H2} = \ 100\%\)</span></p>
@@ -437,31 +472,31 @@ mass of produced oxygen per kg of hydrogen: <span class="arithmatex">\(r_{oh} = 
 <tr>
 <td>Grid carbon intensity</td>
 <td><span class="arithmatex">\(ci_{grid}\)</span></td>
-<td><span class="arithmatex">\(<span class="arithmatex">\(100\ \frac{g\ CO_{2}eq}{kWh}\)</span>\)</span></td>
+<td><span class="arithmatex">\(100\ \frac{g\ CO_{2}eq}{kWh}\)</span></td>
 <td></td>
 </tr>
 <tr>
 <td>Relevant renewable electricity used</td>
 <td><span class="arithmatex">\(el_{ren}\)</span></td>
-<td><span class="arithmatex">\(<span class="arithmatex">\(500\ GWh\)</span>\)</span></td>
-<td><span class="arithmatex">\(<span class="arithmatex">\(264\ MWh\)</span>\)</span></td>
+<td><span class="arithmatex">\(500\ GWh\)</span></td>
+<td><span class="arithmatex">\(264\ MWh\)</span></td>
 </tr>
 <tr>
 <td>Relevant grid electricity used</td>
 <td><span class="arithmatex">\(el_{grid\_ ely\ }\)</span></td>
-<td><span class="arithmatex">\(<span class="arithmatex">\(50\ GWh\)</span>\)</span></td>
-<td><span class="arithmatex">\(<span class="arithmatex">\(500\ MWh\)</span>\)</span></td>
+<td><span class="arithmatex">\(50\ GWh\)</span></td>
+<td><span class="arithmatex">\(500\ MWh\)</span></td>
 </tr>
 <tr>
 <td>Grid electricity for auxiliaries</td>
 <td><span class="arithmatex">\(el_{grid\_ aux}\)</span></td>
-<td><span class="arithmatex">\(<span class="arithmatex">\(0.5\ GWh\)</span>\)</span></td>
-<td><span class="arithmatex">\(<span class="arithmatex">\(0.7\ MWh\)</span>\)</span></td>
+<td><span class="arithmatex">\(0.5\ GWh\)</span></td>
+<td><span class="arithmatex">\(0.7\ MWh\)</span></td>
 </tr>
 <tr>
 <td>Efficiency of the electrolyser</td>
 <td><span class="arithmatex">\(\eta_{ely}\)</span></td>
-<td><span class="arithmatex">\(<span class="arithmatex">\(60\%\)</span>\)</span></td>
+<td><span class="arithmatex">\(60\%\)</span></td>
 <td></td>
 </tr>
 </tbody>
@@ -480,6 +515,22 @@ mass of produced oxygen per kg of hydrogen: <span class="arithmatex">\(r_{oh} = 
 <p><img src="./media/media/image3.png" style="width:3.73259in;height:1.42505in" /></p>
 <p>Cracking Ammonia is endothermic, the heat can be supplied electrically or by burning part of the ammonia. Here we assume that the energy is supplied electrically.</p>
 <h2 id="assumptions_2">Assumptions:</h2>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Symbol</th>
+<th>Example value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <p>Hydrogen demand Haber process (ammonia production): <span class="arithmatex">\({hydrogen}_{input} = 1.16\ \frac{MJ_{H_{2}}}{MJ_{{NH}_{3}}}\)</span></p>
 <p>Electricity demand Haber process: <span class="arithmatex">\(\ el_{grid\_ Haber\ } = 0.75\ \frac{MJ_{el}}{MJ_{NH_{3}}}\)</span></p>
 <p>Grid carbon intensity: <span class="arithmatex">\(ci_{grid} = 100\ \frac{g\ CO_{2}eq}{kWh}\)</span></p>
@@ -497,6 +548,22 @@ mass of produced oxygen per kg of hydrogen: <span class="arithmatex">\(r_{oh} = 
 <p>Hydrogen production as before, shift with CO<sub>2</sub> and FT to kerosene, assuming only kerosene as output to simplify the example.</p>
 <p>The shift reaction and Fischer Tropsch can be either seen as an integrated process, or as two separate processes. It is allowed to choose either one. We first calculate if the reaction adds to the heating value, in which case the grid electricity used for heating the reactor has to be counted as relevant input.</p>
 <h2 id="assumptions_3">Assumptions:</h2>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Symbol</th>
+<th>Example value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <p>Relevant grid electricity used for the shift reaction: <span class="arithmatex">\(el_{grid\_ shift\ } = 80\ GWh\)</span></p>
 <p>Shift reaction grid carbon intensity: <span class="arithmatex">\(ci_{grid\_ shift} = 18\ \frac{g\ CO_{2}eq}{kWh}\)</span></p>
 <p>Amount of hydrogen produced: <span class="arithmatex">\({prod}_{H2} = \left( el_{ren} + {el}_{grid_{ely}} \right)\ \eta_{ely} = 550\ GWh*60\% \approx 330\ GWh\)</span></p>
@@ -522,13 +589,29 @@ mass of produced oxygen per kg of hydrogen: <span class="arithmatex">\(r_{oh} = 
 <p><img src="./media/media/image5.png" style="width:3.1661in;height:1.81331in" /></p>
 <p>Instead of using a shift reaction to increase the H<sub>2</sub>/CO ratio in biogenic syngas, RFNBO hydrogen is added to the Fischer-Tropsch process. According to the “co-processing exception” in Annex A point 1, a distinction on a proportional basis of the energetic value of inputs shall be made.</p>
 <h2 id="assumptions_4">Assumptions:</h2>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Symbol</th>
+<th>Example value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <p>Efficiency of the FT reaction <span class="arithmatex">\(\eta_{FT} = 70\%\)</span></p>
 <p>Fully renewable electricity carbon intensity: <span class="arithmatex">\(ci_{ren} = 0\ \frac{g\ CO_{2}eq}{kWh}\)</span></p>
 <p>Biogenic syngas carbon intensity: <span class="arithmatex">\(ci_{bio\_ syngas} = 20\ \frac{g\ CO_{2}eq}{{MJ}_{syngas}}\)</span></p>
 <p>Energy ratio of syngas to hydrogen: <span class="arithmatex">\(r_{sh} = 4\ \frac{MJ_{syngas}}{MJ_{hydrogen}}\)</span></p>
 <h2 id="calculation_4">Calculation:</h2>
 <p>Total carbon intensity: <span class="arithmatex">\({ci}_{RFNBO - kerosene} = 0\ \frac{g\ CO_{2}eq}{MJ}\)</span></p>
-<div class="arithmatex">\[{ci}_{bio - kerosene} = \frac{ci_{bio\_ syngas}}{\eta_{FT}} = \ 28.6\ \frac{g\ CO_{2}eq}{MJ}\]</div>
+<p><span class="arithmatex">\({ci}_{bio - kerosene} = \frac{ci_{bio\_ syngas}}{\eta_{FT}} = \ 28.6\ \frac{g\ CO_{2}eq}{MJ}\)</span></p>
 <p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ kerosene} = \ \frac{1}{1 + r_{sh}} = 0.2\)</span></p>
 <h2 id="conclusion_4">Conclusion:</h2>
 <p>This case study shows that the streams are separated based on the energy in the inputs, and then the carbon intensity is calculated for each stream separately.</p>
@@ -537,13 +620,29 @@ mass of produced oxygen per kg of hydrogen: <span class="arithmatex">\(r_{oh} = 
 <p><img src="./media/media/image6.png" style="width:4.77584in;height:1.7193in" /></p>
 <p>Very similar to the biogenic syngas case, the fossil process part can be virtually split from the RFNBO part.</p>
 <h2 id="assumptions_5">Assumptions:</h2>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Symbol</th>
+<th>Example value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <p>Efficiency of the FT reaction <span class="arithmatex">\(\eta_{FT} = 70\%\)</span></p>
 <p>Fully renewable electricity carbon intensity: <span class="arithmatex">\(ci_{ren} = 0\ \frac{g\ CO_{2}eq}{kWh}\)</span></p>
 <p>Fossil syngas carbon intensity: <span class="arithmatex">\(ci_{syngas} = 120\ \frac{g\ CO_{2}eq}{{MJ}_{syngas}}\)</span></p>
 <p>Energy ratio of syngas to hydrogen: <span class="arithmatex">\(r_{sh} = 9\ \frac{MJ_{syngas}}{MJ_{hydrogen}}\)</span></p>
 <h2 id="calculation_5">Calculation:</h2>
 <p>Total carbon intensity: <span class="arithmatex">\({ci}_{RFNBO - kerosene} = 0\ \frac{g\ CO_{2}eq}{MJ}\)</span></p>
-<div class="arithmatex">\[{ci}_{fossil - kerosene} = \frac{ci_{syngas}}{\eta_{FT}} = \ 171.4\ \frac{g\ CO_{2}eq}{MJ}\]</div>
+<p><span class="arithmatex">\({ci}_{fossil - kerosene} = \frac{ci_{syngas}}{\eta_{FT}} = \ 171.4\ \frac{g\ CO_{2}eq}{MJ}\)</span></p>
 <p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ kerosene} = \ \frac{1}{1 + r_{sh}} = 0.1\)</span></p>
 <h2 id="conclusion_5">Conclusion:</h2>
 <p>Even if the fossil part doesn’t respect the 70% GHG reduction, the energetic share of RFNBO in the inputs can still be virtually split from the process and the corresponding output can be declared as RFNBO.</p>
