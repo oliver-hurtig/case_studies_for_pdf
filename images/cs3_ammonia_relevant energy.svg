@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   width="1000.614"
-   height="552.951"
-   viewBox="0 0 264.746 146.302"
+   width="880.09186"
+   height="335.96985"
+   viewBox="0 0 232.85782 88.892256"
    version="1.1"
    id="svg1"
    xml:space="preserve"
-   sodipodi:docname="cs6_relevant energy.svg"
+   sodipodi:docname="cs3_ammonia_relevant energy.svg"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -22,11 +22,11 @@
    inkscape:pagecheckerboard="0"
    inkscape:deskcolor="#d1d1d1"
    inkscape:zoom="1.1053213"
-   inkscape:cx="467.73729"
-   inkscape:cy="263.72422"
+   inkscape:cx="457.78544"
+   inkscape:cy="118.96993"
    inkscape:window-width="1920"
    inkscape:window-height="1017"
-   inkscape:window-x="1912"
+   inkscape:window-x="-8"
    inkscape:window-y="-8"
    inkscape:window-maximized="1"
    inkscape:current-layer="svg1" />
@@ -36,7 +36,7 @@
    clipPathUnits="userSpaceOnUse"
    id="clipEmfPath15">
             <path
-   d="M-12.8 4.8h1014.668v563.65H-12.799Z"
+   d="M -12.8,4.8 H 1001.868 V 568.45 H -12.799 Z"
    id="path15" />
         </clipPath>
         <style
@@ -97,11 +97,11 @@
     <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:400;font-size:5.6224px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0;word-spacing:0;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-   x="2.1280007"
-   y="78.922997"
+   x="-0.44223851"
+   y="40.65625"
    id="text22"><tspan
-     x="2.1280007"
-     y="78.922997"
+     x="-0.44223851"
+     y="40.65625"
      id="tspan22"
      style="stroke-width:0.264583"><tspan
        dx="0"
@@ -109,13 +109,13 @@
        style="font-style:normal;font-variant:normal;font-weight:400;font-size:5.6224px;font-family:Arial;fill:#23a2bc;stroke-width:0.264583"
        id="tspan21">Renewables</tspan></tspan></text><path
    style="fill:none;stroke:#23a2bc;stroke-width:3.17483px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
-   d="M 26.237,63.69 H 40.344 V 85.258 H 54.45"
+   d="m 23.666761,25.423255 h 14.107 v 21.568 h 14.106"
    id="path29" /><path
    style="fill:none;stroke:#23a2bc;stroke-width:2.58778px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
-   d="M 71.382,85.216 H 94.179"
+   d="m 68.811761,46.949255 h 22.797"
    id="path36" /><g
    id="g57"
-   transform="translate(34.942,-56.73)">
+   transform="translate(32.371761,-94.996745)">
             <text
    xml:space="preserve"
    style="font-style:italic;font-variant:normal;font-weight:400;font-size:4.96094px;line-height:125%;font-family:Arial;text-align:end;letter-spacing:0;word-spacing:0;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -146,41 +146,41 @@
        id="tspan52">2</tspan></tspan></text>
         </g><path
    style="fill:none;stroke:#23a2bc;stroke-width:1.45841px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
-   d="m 110.462,85.216 h 31.86"
+   d="m 107.89176,46.949255 h 31.86"
    id="path55" /><path
-   style="fill:#800080;stroke:#800080;stroke-width:1.45841px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:0.58431375"
-   d="m 100.98897,43.639044 -0.0506,31.859964"
+   style="fill:#800080;stroke:#800080;stroke-width:1.45841px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:0.584314"
+   d="m 98.418731,5.3722992 -0.0506,31.8599638"
    id="path55-0" /><text
    xml:space="preserve"
    style="font-style:italic;font-variant:normal;font-weight:400;font-size:4.96094px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0;word-spacing:0;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-   x="119.61"
-   y="91.390999"
+   x="117.03976"
+   y="53.124252"
    id="text56"><tspan
-     x="119.61"
-     y="91.390999"
+     x="117.03976"
+     y="53.124252"
      id="tspan56"
      style="stroke-width:0.264583"><tspan
        style="font-style:italic;font-variant:normal;font-weight:400;font-size:4.96094px;font-family:Arial;fill:#949494;stroke-width:0.264583"
        id="tspan55">ammonia</tspan></tspan></text><text
    xml:space="preserve"
    style="font-style:italic;font-variant:normal;font-weight:400;font-size:4.96094px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0;word-spacing:0;text-anchor:start;fill:#800080;fill-opacity:1;stroke:none;stroke-width:0.264583"
-   x="89.313583"
-   y="41.817886"
+   x="86.743347"
+   y="3.5511415"
    id="text56-0"><tspan
-     x="89.313583"
-     y="41.817886"
+     x="86.743347"
+     y="3.5511415"
      id="tspan56-6"
-     style="stroke-width:0.264583;fill:#800080">nitrogen<tspan
+     style="fill:#800080;stroke-width:0.264583">nitrogen<tspan
    style="font-style:italic;font-variant:normal;font-weight:400;font-size:4.96094px;font-family:Arial;fill:#800080;stroke-width:0.264583"
    id="tspan55-8" /></tspan></text><path
    style="fill:none;stroke:#23a2bc;stroke-width:1.49903px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
-   d="M 162.09248,85.216 H 181.052"
+   d="m 159.52224,46.949255 h 18.95952"
    id="path60" /><path
    style="fill:#c46a11;fill-opacity:1;fill-rule:nonzero;stroke:#c46a11;stroke-width:0.0105828px;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-   d="m 189.783,111.694 0.053,-16.224 h -0.55 l -0.053,16.224 z m 0.836,-15.864 -1.048,-2.127 -1.068,2.117 z"
+   d="m 187.21276,73.427255 0.053,-16.224 h -0.55 l -0.053,16.224 z m 0.836,-15.864 -1.048,-2.127 -1.068,2.117 z"
    id="path114" /><g
    id="g56"
-   transform="translate(34.942,-60.71)">
+   transform="translate(32.371761,-98.976745)">
             <text
    xml:space="preserve"
    style="font-style:italic;font-variant:normal;font-weight:400;font-size:4.96094px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0;word-spacing:0;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
@@ -195,24 +195,25 @@
        id="tspan114">Heat</tspan></tspan></text>
         </g><path
    style="fill:none;stroke:#ffc000;stroke-width:0.169325px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
-   d="m 198.461,88.475 34.013,0.021"
+   d="m 195.89076,50.208255 34.013,0.021"
    id="path117" /><path
    style="fill:none;stroke:#23a2bc;stroke-width:0.719629px;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:8;stroke-dasharray:none;stroke-opacity:1"
-   d="m 198.44,88.115 34.087,-0.042"
+   d="m 195.86976,49.848255 34.087,-0.042"
    id="path118" /><text
    xml:space="preserve"
    style="font-style:italic;font-variant:normal;font-weight:400;font-size:4.96094px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0;word-spacing:0;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
-   x="214.882"
-   y="93.601997"
+   x="212.31177"
+   y="55.335251"
    id="text119"><tspan
-     x="214.882"
-     y="93.601997"
+     x="212.31177"
+     y="55.335251"
      id="tspan119"
      style="stroke-width:0.264583"><tspan
        style="font-style:italic;font-variant:normal;font-weight:400;font-size:4.96094px;font-family:Arial;fill:#949494;stroke-width:0.264583"
        id="tspan118">hydrogen</tspan></tspan></text><a
    id="a4"
-   xlink:href="#electrolysis"><g
+   xlink:href="#electrolysis"
+   transform="translate(-2.5702392,-38.266745)"><g
      id="g47"
      transform="matrix(1.38894,0,0,1.38894,22.517,-136.045)">
             <g
@@ -403,7 +404,8 @@
             </g>
         </g></a><a
    id="a1"
-   xlink:href="#renewable-electricity-production"><g
+   xlink:href="#renewable-electricity-production"
+   transform="translate(-2.5702392,-38.266745)"><g
      id="g41"
      transform="matrix(0.04114,0,0,0.04114,9.316,56.113)">
             <path
@@ -732,7 +734,8 @@
    id="path81" />
         </g></a><a
    id="a11"
-   xlink:href="#final-fuel-production"><g
+   xlink:href="#final-fuel-production"
+   transform="translate(-2.5702392,-38.266745)"><g
      id="g42"
      transform="matrix(0.69784,0,0,0.69784,181.198,76.992)">
             <path
@@ -744,7 +747,8 @@
    d="M 0,0 H 24 V 24 H 0 Z" />
         </g></a><a
    id="a8"
-   xlink:href="#methanol-production"><g
+   xlink:href="#methanol-production"
+   transform="translate(-2.5702392,-38.266745)"><g
      id="Layer_17"
      transform="matrix(0.29313,0,0,0.29313,91.686,76.242)">
             <path
@@ -821,7 +825,8 @@
    id="path14-3" />
         </g></a><a
    id="a9"
-   xlink:href="#fuel-transport"><g
+   xlink:href="#fuel-transport"
+   transform="translate(-2.5702392,-38.266745)"><g
      id="g46"
      transform="matrix(0.03256,0,0,0.03256,133.721,66.812)">
             <path
@@ -850,7 +855,8 @@
    id="path6-8" />
         </g></a><a
    id="a10"
-   xlink:href="#use-of-waste-heat"><path
+   xlink:href="#use-of-waste-heat"
+   transform="translate(-2.5702392,-38.266745)"><path
      fill="#000"
      d="m 192.412,111.73 c -15.801,6.177 2.193,7.498 -3.259,15.429 12.265,-7.91 -6.873,-7.591 3.259,-15.43 z m 0.41,1.056 c -6.956,4.477 5.144,6.678 1.161,11.742 7.24,-5.084 -4.587,-6.69 -1.162,-11.742 z m -7.473,1.745 c -6.578,4.4 3.938,7.03 2.305,11.958 3.963,-5.979 -6.01,-6.547 -2.305,-11.958 z"
      id="path1-36"
