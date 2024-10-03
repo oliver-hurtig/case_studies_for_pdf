@@ -531,7 +531,7 @@
 </tr>
 <tr>
 <td>Electricity demand Haber process</td>
-<td style="text-align: center;"><span class="arithmatex">\(\ el_{grid\_Haber\ }\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(\ el_{grid\_Haber}\)</span></td>
 <td style="text-align: center;"><span class="arithmatex">\(0.75\ \frac{MJ_{el}}{MJ_{NH_{3}}}\)</span></td>
 </tr>
 <tr>
@@ -541,7 +541,7 @@
 </tr>
 <tr>
 <td>Electricity demand cracking process</td>
-<td style="text-align: center;"><span class="arithmatex">\(\ el_{grid\_cracking\ }\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(\ el_{grid\_cracking}\)</span></td>
 <td style="text-align: center;"><span class="arithmatex">\(0.3\ \frac{MJ_{el}}{MJ_{H_{2}}}\)</span></td>
 </tr>
 <tr>
@@ -553,8 +553,8 @@
 </table>
 <p>As the output energy is bigger than the input energy, the electricity used in the cracking process needs to be considered as a relevant input.</p>
 <h2 id="calculation_2">Calculation:</h2>
-<p>Total carbon intensity: <span class="arithmatex">\({ci}_{H_{2}} = \left( {ammonia}_{input}*el_{grid_{Haber}} + el_{grid\_ cracking\ } \right)*\ ci_{grid}\  \approx 26.7\frac{g\ CO_{2}eq}{MJ}\)</span></p>
-<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ H2} = \ \frac{{ammonia}_{input}\ *\ {hydrogen}_{input}}{{{ammonia}_{input}\ *\ hydrogen}_{input}\  + \ el_{grid\_ cracking\ }\ \ \ } = \frac{1.02\ MJ}{1.02 + 0.3\ MJ} \approx 77\%\)</span></p>
+<p>Total carbon intensity: <span class="arithmatex">\({ci}_{H_{2}} = \left( {ammonia}_{input}*el_{grid\_Haber} + el_{grid\_cracking} \right)*ci_{grid} \approx 26.7\frac{g\ CO_{2}eq}{MJ}\)</span></p>
+<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_H_2} = \frac{{ammonia}_{input} * {hydrogen}_{input}}{{{ammonia}_{input} * hydrogen}_{input}  +  el_{grid\_cracking}} = \frac{1.02\ MJ}{1.02 + 0.3\ MJ} \approx 77\%\)</span></p>
 <h2 id="conclusion_2">Conclusion:</h2>
 <p>This case study shows that some transport processes that need energy to split the transported product at destination might need to consider the energy needed for the split as relevant energy. If this energy is not fully renewable, the share of RFNBO will decrease.</p>
 <h1 id="rwgsft-to-kerosene">rWGS+FT to kerosene</h1>
@@ -579,27 +579,27 @@
 </tr>
 <tr>
 <td>Shift reaction grid carbon intensity</td>
-<td style="text-align: center;">$ci_{grid_ shift} $</td>
+<td style="text-align: center;"><span class="arithmatex">\(ci_{grid\_shift}\)</span></td>
 <td style="text-align: center;">$ 18 \frac{g CO_{2}eq}{kWh}$</td>
 </tr>
 <tr>
 <td>Amount of hydrogen produced</td>
-<td style="text-align: center;">${prod}_{H2} $</td>
-<td style="text-align: center;">$ \left( el_{ren} + {el}<em ely="ely">{grid</em> = 550 GWh*60\% \approx 330 GWh$}} \right) \eta_{ely</td>
+<td style="text-align: center;"><span class="arithmatex">\({prod}_{H2}\)</span></td>
+<td style="text-align: center;">$ \left( el_{ren} + {el}<em ely="ely">{grid</em> = 550 GWh*60\% \approx 330 GWh$}} \right) * \eta_{ely</td>
 </tr>
 <tr>
 <td>Hydrogen carbon intensity</td>
-<td style="text-align: center;">${ci}_{H2} $</td>
+<td style="text-align: center;"><span class="arithmatex">\({ci}_{H2}\)</span></td>
 <td style="text-align: center;">$ 30.3\frac{g CO_{2}eq}{MJ}$</td>
 </tr>
 <tr>
 <td>Efficiency of the shift reaction</td>
-<td style="text-align: center;">$\eta_{shift} $</td>
+<td style="text-align: center;"><span class="arithmatex">\(\eta_{shift}\)</span></td>
 <td style="text-align: center;">$ 99\%$</td>
 </tr>
 <tr>
 <td>Share of the (electric) heat energy ending up in the syngas</td>
-<td style="text-align: center;">$s_{heat_ to_ heating_ value} $</td>
+<td style="text-align: center;">$s_{heat_to_heating_value} $</td>
 <td style="text-align: center;">$ 10\%$</td>
 </tr>
 <tr>
