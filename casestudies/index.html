@@ -483,13 +483,13 @@
 </tr>
 <tr>
 <td>Relevant grid electricity used</td>
-<td><span class="arithmatex">\(el_{grid\_ ely\ }\)</span></td>
+<td><span class="arithmatex">\(el_{grid\_ely}\)</span></td>
 <td style="text-align: center;"><span class="arithmatex">\(50\ GWh\)</span></td>
 <td style="text-align: center;"><span class="arithmatex">\(500\ MWh\)</span></td>
 </tr>
 <tr>
 <td>Grid electricity for auxiliaries</td>
-<td><span class="arithmatex">\(el_{grid\_ aux}\)</span></td>
+<td><span class="arithmatex">\(el_{grid\_aux}\)</span></td>
 <td style="text-align: center;"><span class="arithmatex">\(0.5\ GWh\)</span></td>
 <td style="text-align: center;"><span class="arithmatex">\(0.7\ MWh\)</span></td>
 </tr>
@@ -531,17 +531,17 @@
 </tr>
 <tr>
 <td>Electricity demand Haber process</td>
-<td style="text-align: center;"><span class="arithmatex">\(\ el_{grid\_Haber}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(el_{grid\_Haber}\)</span></td>
 <td style="text-align: center;"><span class="arithmatex">\(0.75\ \frac{MJ_{el}}{MJ_{NH_{3}}}\)</span></td>
 </tr>
 <tr>
 <td>Grid carbon intensity</td>
 <td style="text-align: center;"><span class="arithmatex">\(ci_{grid}\)</span></td>
-<td style="text-align: center;">$ 100 \frac{g CO_{2}eq}{kWh}$</td>
+<td style="text-align: center;"><span class="arithmatex">\(100\ \frac{g\ CO_{2}eq}{kWh}\)</span></td>
 </tr>
 <tr>
 <td>Electricity demand cracking process</td>
-<td style="text-align: center;"><span class="arithmatex">\(\ el_{grid\_cracking}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(el_{grid\_cracking}\)</span></td>
 <td style="text-align: center;"><span class="arithmatex">\(0.3\ \frac{MJ_{el}}{MJ_{H_{2}}}\)</span></td>
 </tr>
 <tr>
@@ -574,23 +574,43 @@
 <tbody>
 <tr>
 <td>Relevant grid electricity used for the shift reaction</td>
-<td style="text-align: center;">$el_{grid_ shift } $</td>
-<td style="text-align: center;">$ 80 GWh$</td>
+<td style="text-align: center;"><span class="arithmatex">\(el_{grid\_shift}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(80\ GWh\)</span></td>
 </tr>
 <tr>
 <td>Shift reaction grid carbon intensity</td>
 <td style="text-align: center;"><span class="arithmatex">\(ci_{grid\_shift}\)</span></td>
-<td style="text-align: center;">$ 18 \frac{g CO_{2}eq}{kWh}$</td>
+<td style="text-align: center;"><span class="arithmatex">\(18\ \frac{g\ CO_{2}eq}{kWh}\)</span></td>
+</tr>
+<tr>
+<td>Relevant renewable electricity used</td>
+<td style="text-align: center;"><span class="arithmatex">\(el_{ren}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(500\ GWh\)</span></td>
+</tr>
+<tr>
+<td>Relevant grid electricity used</td>
+<td style="text-align: center;"><span class="arithmatex">\(el_{grid\_ely}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(50\ GWh\)</span></td>
+</tr>
+<tr>
+<td>Grid electricity for auxiliaries</td>
+<td style="text-align: center;"><span class="arithmatex">\(el_{grid\_aux}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(0.5\ GWh\)</span></td>
+</tr>
+<tr>
+<td>Efficiency of the electrolyser</td>
+<td style="text-align: center;"><span class="arithmatex">\(\eta_{ely}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(60\%\)</span></td>
 </tr>
 <tr>
 <td>Amount of hydrogen produced</td>
 <td style="text-align: center;"><span class="arithmatex">\({prod}_{H2}\)</span></td>
-<td style="text-align: center;">$ \left( el_{ren} + {el}<em ely="ely">{grid</em> = 550 GWh*60\% \approx 330 GWh$}} \right) * \eta_{ely</td>
+<td style="text-align: center;"><span class="arithmatex">\(\left( el_{ren} + el_{grid\_ely} \right) * \eta_{ely} = 550\ GWh*60\% = 330\ GWh\)</span></td>
 </tr>
 <tr>
 <td>Hydrogen carbon intensity</td>
 <td style="text-align: center;"><span class="arithmatex">\({ci}_{H2}\)</span></td>
-<td style="text-align: center;">$ 30.3\frac{g CO_{2}eq}{MJ}$</td>
+<td style="text-align: center;"><span class="arithmatex">\(30.3\frac{g\ CO_{2}eq}{MJ}\)</span></td>
 </tr>
 <tr>
 <td>Efficiency of the shift reaction</td>
@@ -599,27 +619,27 @@
 </tr>
 <tr>
 <td>Share of the (electric) heat energy ending up in the syngas</td>
-<td style="text-align: center;">$s_{heat_to_heating_value} $</td>
-<td style="text-align: center;">$ 10\%$</td>
+<td style="text-align: center;"><span class="arithmatex">\(s_{heat\_to\_heating\_value}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(10\%\)</span></td>
 </tr>
 <tr>
 <td>Efficiency of the FT reaction</td>
-<td style="text-align: center;">$\eta_{FT} $</td>
-<td style="text-align: center;">$ 70\%$</td>
+<td style="text-align: center;"><span class="arithmatex">\(\eta_{FT}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(70\%\)</span></td>
 </tr>
 </tbody>
 </table>
 <h2 id="calculation_3">Calculation:</h2>
 <h3 id="if-looking-only-at-the-shift-reaction">If looking only at the shift reaction:</h3>
-<p>Energy coming out of the shift reaction: <span class="arithmatex">\({En}_{output} = {prod}_{H2}*\eta_{shift} + el_{grid\_ shift}*s_{heat\_ to\_ heating\_ value} = 334.7\ GWh\)</span></p>
+<p>Energy coming out of the shift reaction: <span class="arithmatex">\({En}_{output} = {prod}_{H2}*\eta_{shift} + el_{grid\_shift}*s_{heat\_to\_heating\_value} = 334.7\ GWh\)</span></p>
 <p>This is higher than the hydrogen input, so the electricity has to be considered a relevant input.</p>
-<p>Total carbon intensity: <span class="arithmatex">\({ci}_{kerosene} = \ \frac{\left( {el}_{grid\_ ely} + el_{grid\_ aux} \right)\ *\ ci_{grid} + el_{grid\_ shift\ }*\ ci_{grid\_ shift}}{{En}_{output}\ *\ \eta_{FT}} = \frac{50.5\ GWh*100\frac{g}{kWh} + 80\ GWh*18\ g/kWh}{334.7\ GWh*70\%} \approx 27.7\frac{g\ CO_{2}eq}{MJ}\)</span></p>
-<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ kerosene} = \ \frac{el_{ren}}{el_{ren} + {el}_{grid\_ ely} + el_{grid\_ shift\ }\ \ } = \frac{500\ GWh}{630\ GWh} \approx 79\%\)</span></p>
+<p>Total carbon intensity: <span class="arithmatex">\({ci}_{kerosene} = \ \frac{\left( el_{grid\_ely} + el_{grid\_aux} \right)\ *\ ci_{grid} + el_{grid\_shift} * ci_{grid\_shift}}{{En}_{output} * \eta_{FT}} = \frac{50.5\ GWh*100\frac{g}{kWh} + 80\ GWh*18\ g/kWh}{334.7\ GWh*70\%} \approx 27.7\frac{g\ CO_{2}eq}{MJ}\)</span></p>
+<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ kerosene} = \ \frac{el_{ren}}{el_{ren} + el_{grid\_ely} + el_{grid\_ shift\ }} = \frac{500\ GWh}{630\ GWh} \approx 79\%\)</span></p>
 <h3 id="if-looking-at-the-shift-and-ft-reaction-as-an-integrated-process">If looking at the shift and FT reaction as an integrated process:</h3>
-<p>Energy coming out of the FT reaction: <span class="arithmatex">\({En}_{output} = \left( {prod}_{H2}*\eta_{shift} + el_{grid\_ shift}*s_{heat\_ to\_ heating\_ value} \right)*\eta_{FT}\  = 234.3\ GWh\)</span></p>
+<p>Energy coming out of the FT reaction: <span class="arithmatex">\({En}_{output} = \left( {prod}_{H2}*\eta_{shift} + el_{grid\_shift}*s_{heat\_to\_heating\_value} \right) * \eta_{FT} = 234.3\ GWh\)</span></p>
 <p>This is lower than the hydrogen input, so the electricity does not have to be considered a relevant input.</p>
 <p>Total carbon intensity as before: <span class="arithmatex">\({ci}_{kerosene} \approx 27.7\frac{g\ CO_{2}eq}{MJ}\)</span></p>
-<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ H2} = \ \frac{el_{ren}}{el_{ren} + {el}_{grid\_ ely}\ \ \ } = \frac{500\ GWh}{550\ GWh} \approx 91\%\)</span></p>
+<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ H2} = \frac{el_{ren}}{el_{ren} + {el}_{grid\_ely}} = \frac{500\ GWh}{550\ GWh} \approx 91\%\)</span></p>
 <h2 id="conclusion_3">Conclusion:</h2>
 <p>This case study shows that if looking at the processes separately, under certain circumstances it is possible that the energy content is increased, and that the electricity has to be counted as relevant input. In this case, the share of RFNBO in the output changes, but the carbon intensity remains the same.</p>
 <h1 id="biogenic-syngas-with-surplus-co-and-rfnbo-hydrogen">Biogenic syngas with surplus CO and RFNBO hydrogen</h1>
@@ -638,30 +658,30 @@
 <tbody>
 <tr>
 <td>Efficiency of the FT reaction</td>
-<td style="text-align: center;">$\eta_{FT}  $</td>
-<td style="text-align: center;">$  70\%$</td>
+<td style="text-align: center;"><span class="arithmatex">\(\eta_{FT}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(70\%\)</span></td>
 </tr>
 <tr>
 <td>Fully renewable electricity carbon intensity</td>
-<td style="text-align: center;">$ci_{ren} $</td>
-<td style="text-align: center;">$ 0 \frac{g CO_{2}eq}{kWh}$</td>
+<td style="text-align: center;"><span class="arithmatex">\(ci_{ren}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(0\ \frac{g\ CO_{2}eq}{kWh}\)</span></td>
 </tr>
 <tr>
 <td>Biogenic syngas carbon intensity</td>
-<td style="text-align: center;">$ci_{bio_ syngas} $</td>
-<td style="text-align: center;">$ 20 \frac{g CO_{2}eq}{{MJ}_{syngas}}$</td>
+<td style="text-align: center;"><span class="arithmatex">\(ci_{bio\_syngas}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(20\ \frac{g\ CO_{2}eq}{{MJ}_{syngas}}\)</span></td>
 </tr>
 <tr>
 <td>Energy ratio of syngas to hydrogen</td>
-<td style="text-align: center;">$r_{sh} $</td>
-<td style="text-align: center;">$ 4 \frac{MJ_{syngas}}{MJ_{hydrogen}}$</td>
+<td style="text-align: center;"><span class="arithmatex">\(r_{sh}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(4\ \frac{MJ_{syngas}}{MJ_{hydrogen}}\)</span></td>
 </tr>
 </tbody>
 </table>
 <h2 id="calculation_4">Calculation:</h2>
 <p>Total carbon intensity: <span class="arithmatex">\({ci}_{RFNBO - kerosene} = 0\ \frac{g\ CO_{2}eq}{MJ}\)</span></p>
-<p><span class="arithmatex">\({ci}_{bio - kerosene} = \frac{ci_{bio\_ syngas}}{\eta_{FT}} = \ 28.6\ \frac{g\ CO_{2}eq}{MJ}\)</span></p>
-<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ kerosene} = \ \frac{1}{1 + r_{sh}} = 0.2\)</span></p>
+<p><span class="arithmatex">\({ci}_{bio-kerosene} = \frac{ci_{bio\_syngas}}{\eta_{FT}} = \ 28.6\ \frac{g\ CO_{2}eq}{MJ}\)</span></p>
+<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_kerosene} = \ \frac{1}{1 + r_{sh}} = 0.2\)</span></p>
 <h2 id="conclusion_4">Conclusion:</h2>
 <p>This case study shows that the streams are separated based on the energy in the inputs, and then the carbon intensity is calculated for each stream separately.</p>
 <h1 id="partly-replacing-fossil-inputs-like-in-coal-fischer-tropsch">Partly replacing fossil inputs like in coal Fischer Tropsch</h1>
@@ -680,30 +700,30 @@
 <tbody>
 <tr>
 <td>Efficiency of the FT reaction</td>
-<td style="text-align: center;">$\eta_{FT} $</td>
-<td style="text-align: center;">$ 70\%$</td>
+<td style="text-align: center;"><span class="arithmatex">\(\eta_{FT}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(70\%\)</span></td>
 </tr>
 <tr>
 <td>Fully renewable electricity carbon intensity</td>
-<td style="text-align: center;">$ci_{ren} $</td>
-<td style="text-align: center;">$ 0 \frac{g CO_{2}eq}{kWh}$</td>
+<td style="text-align: center;"><span class="arithmatex">\(ci_{ren}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(0\ \frac{g\ CO_{2}eq}{kWh}\)</span></td>
 </tr>
 <tr>
 <td>Fossil syngas carbon intensity</td>
-<td style="text-align: center;">$ci_{syngas} $</td>
-<td style="text-align: center;">$ 120 \frac{g CO_{2}eq}{{MJ}_{syngas}}$</td>
+<td style="text-align: center;"><span class="arithmatex">\(ci_{syngas}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(120\ \frac{g\ CO_{2}eq}{{MJ}_{syngas}}\)</span></td>
 </tr>
 <tr>
 <td>Energy ratio of syngas to hydrogen</td>
-<td style="text-align: center;">$r_{sh} $</td>
-<td style="text-align: center;">$ 9 \frac{MJ_{syngas}}{MJ_{hydrogen}}$</td>
+<td style="text-align: center;"><span class="arithmatex">\(r_{sh}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(9\ \frac{MJ_{syngas}}{MJ_{hydrogen}}\)</span></td>
 </tr>
 </tbody>
 </table>
 <h2 id="calculation_5">Calculation:</h2>
-<p>Total carbon intensity: <span class="arithmatex">\({ci}_{RFNBO - kerosene} = 0\ \frac{g\ CO_{2}eq}{MJ}\)</span></p>
-<p><span class="arithmatex">\({ci}_{fossil - kerosene} = \frac{ci_{syngas}}{\eta_{FT}} = \ 171.4\ \frac{g\ CO_{2}eq}{MJ}\)</span></p>
-<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ kerosene} = \ \frac{1}{1 + r_{sh}} = 0.1\)</span></p>
+<p>Total carbon intensity: <span class="arithmatex">\({ci}_{RFNBO-kerosene} = 0\ \frac{g\ CO_{2}eq}{MJ}\)</span></p>
+<p><span class="arithmatex">\({ci}_{fossil-kerosene} = \frac{ci_{syngas}}{\eta_{FT}} = \ 171.4\ \frac{g\ CO_{2}eq}{MJ}\)</span></p>
+<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_kerosene} = \ \frac{1}{1 + r_{sh}} = 0.1\)</span></p>
 <h2 id="conclusion_5">Conclusion:</h2>
 <p>Even if the fossil part doesn’t respect the 70% GHG reduction, the energetic share of RFNBO in the inputs can still be virtually split from the process and the corresponding output can be declared as RFNBO.</p>
 <h1 id="methanoltransportmtj">Methanol+transport+MTJ</h1>
