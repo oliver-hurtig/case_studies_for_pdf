@@ -412,46 +412,46 @@
 <thead>
 <tr>
 <th>Parameter</th>
-<th>Symbol</th>
-<th>Example value</th>
+<th style="text-align: center;">Symbol</th>
+<th style="text-align: center;">Example value</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Fully renewable electricity carbon intensity</td>
-<td><span class="arithmatex">\(ci_{ren}\)</span></td>
-<td><span class="arithmatex">\(0\ \frac{g\ CO_{2}eq}{kWh}\)</span></td>
-</tr>
-<tr>
 <td>Efficiency of the electrolyser</td>
-<td><span class="arithmatex">\(\eta_{ely}\)</span></td>
-<td><span class="arithmatex">\(60\%\)</span></td>
-</tr>
-<tr>
-<td>Auxiliaries carbon intensity</td>
-<td><span class="arithmatex">\(ci_{aux}\)</span></td>
-<td><span class="arithmatex">\(5\ \frac{g\ CO_{2}eq}{{MJ}_{hydrogen}}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(\eta_{ely}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(60\%\)</span></td>
 </tr>
 <tr>
 <td>economic value of RFNBO hydrogen</td>
-<td><span class="arithmatex">\(v_{hydrogen}\)</span></td>
-<td><span class="arithmatex">\(6\ \frac{\unicode{x20AC}}{{kg}_{hydrogen}}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(v_{hydrogen}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(6\ \frac{\unicode{x20AC}}{{kg}_{hydrogen}}\)</span></td>
 </tr>
 <tr>
 <td>economic value of oxygen</td>
-<td><span class="arithmatex">\(v_{oxygen}\)</span></td>
-<td><span class="arithmatex">\(0.3\ \frac{\unicode{x20AC}}{{kg}_{oxygen}}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(v_{oxygen}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(0.3\ \frac{\unicode{x20AC}}{{kg}_{oxygen}}\)</span></td>
 </tr>
 <tr>
 <td>mass of produced oxygen per kg of hydrogen</td>
-<td><span class="arithmatex">\(r_{oh}\)</span></td>
-<td><span class="arithmatex">\(8\ \frac{{kg}_{oxygen}}{{kg}_{hydrogen}}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(r_{oh}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(8\ \frac{{kg}_{oxygen}}{{kg}_{hydrogen}}\)</span></td>
+</tr>
+<tr>
+<td>Fully renewable electricity carbon intensity</td>
+<td style="text-align: center;"><span class="arithmatex">\(ci_{ren}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(0\ \frac{g\ CO_{2}eq}{kWh}\)</span></td>
+</tr>
+<tr>
+<td>Auxiliaries carbon intensity</td>
+<td style="text-align: center;"><span class="arithmatex">\(ci_{aux}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(5\ \frac{g\ CO_{2}eq}{{MJ}_{hydrogen}}\)</span></td>
 </tr>
 </tbody>
 </table>
 <h2 id="calculation">Calculation:</h2>
-<p>Emissions attributed to hydrogen: $E = ci_{ren}<em>\eta +  {ci}_{aux}</em>\frac{v_{hydrogen}}{v_{hydrogen} + v_{oxygen}*r_{oh} }  = 3.57\frac{g CO_{2}eq}{{MJ}_{hydrogen}} $</p>
-<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ H2} = \ 100\%\)</span></p>
+<p>Emissions attributed to hydrogen: $E = ci_{ren}<em>\eta + {ci}_{aux}</em>\frac{v_{hydrogen}}{v_{hydrogen} + v_{oxygen}*r_{oh}} = 3.57\frac{g CO_{2}eq}{{MJ}_{hydrogen}} $</p>
+<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_H2} = 100\%\)</span></p>
 <h2 id="conclusion">Conclusion:</h2>
 <p>This case study shows that the share of RFNBO is calculated on the energy share of relevant inputs, while emissions are calculated based on all emissions, including auxiliaries. The emissions can be attributed to co-products, in case of products without energy content, economic allocation is used.</p>
 <h1 id="fully-renewable-and-grid-electricity">Fully renewable and grid electricity</h1>
@@ -472,7 +472,7 @@
 <tr>
 <td>Grid carbon intensity</td>
 <td><span class="arithmatex">\(ci_{grid}\)</span></td>
-<td colspan="2" style="text-align: center;"><span class="arithmatex">\(100\ \frac{g\ CO_{2}eq}{kWh}\)</span></td>
+<td colspan="2" style="text-align: center;"><span class="arithmatex">\(100 \frac{g\ CO_{2}eq}{kWh}\)</span></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr>
@@ -503,11 +503,11 @@
 </table>
 <h2 id="calculation_1">Calculation:</h2>
 <h3 id="monthly-averaging">Monthly averaging:</h3>
-<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ H2} = \ \frac{el_{ren}}{el_{ren} + {el}_{grid\_ ely}\ \ \ } = \frac{500\ GWh}{550\ GWh} \approx 91\%\)</span></p>
-<p>Total carbon intensity: <span class="arithmatex">\({ci}_{H2} = \ \frac{\left( {el}_{grid\_ ely} + el_{grid\_ aux} \right)\ ci_{grid}}{\left( el_{ren} + {el}_{grid\_ ely} \right)\ \eta_{ely}\ \ } = \frac{50.5\ GWh*100\ g/kWh}{550\ GWh*60\%} \approx 4.3\frac{g\ CO_{2}eq}{MJ}\)</span></p>
+<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_H2} = \frac{el_{ren}}{el_{ren} + {el}_{grid\_ely}\ \ \ } = \frac{500\ GWh}{550\ GWh} \approx 91\%\)</span></p>
+<p>Total carbon intensity: <span class="arithmatex">\({ci}_{H2} = \frac{\left( {el}_{grid\_ ely} + el_{grid\_aux} \right) * ci_{grid}}{\left( el_{ren} + {el}_{grid\_ely} \right)\ \eta_{ely}} = \frac{50.5\ GWh*100\ g/kWh}{550\ GWh*60\%} \approx 4.3\frac{g\ CO_{2}eq}{MJ}\)</span></p>
 <h3 id="hourly-averaging-low-renewables">Hourly averaging, low renewables:</h3>
-<p>Total carbon intensity: <span class="arithmatex">\({ci}_{H2} = \ \frac{\left( {el}_{grid_{ely}} + el_{grid_{aux}} \right)\ ci_{grid}}{\left( el_{ren} + {el}_{grid_{ely}} \right)\ \eta_{ely}\ \ } = \frac{500.7\ MWh*100\frac{g}{kWh}}{764\ MWh*60\%} \approx 30.3\frac{g\ CO_{2}eq}{MJ}\)</span></p>
-<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ H2} = 0\%\)</span> because threshold of 28.2 g/MJ is not met.</p>
+<p>Total carbon intensity: <span class="arithmatex">\({ci}_{H2} = \frac{\left( {el}_{grid\_ely} + el_{grid\_aux} \right) * ci_{grid}}{\left(el_{ren} + {el}_{grid\_ely} \right) * \eta_{ely}} = \frac{500.7\ MWh*100\frac{g}{kWh}}{764\ MWh*60\%} \approx 30.3\frac{g\ CO_{2}eq}{MJ}\)</span></p>
+<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ H2} = 0\%\)</span> because threshold of <span class="arithmatex">\(28.2 \frac{g}{MJ}\)</span> is not met.</p>
 <h2 id="conclusion_1">Conclusion:</h2>
 <p>This case study shows how averaging over shorter time scales can exclude some periods with low renewables from the RFNBO production. In other cases that are not shown here, the contrary could happen that the average over a longer period has a too high carbon intensity to qualify.</p>
 <h1 id="ammonia-cracking">Ammonia + cracking</h1>
@@ -527,34 +527,34 @@
 <tr>
 <td>Hydrogen demand Haber process (ammonia production)</td>
 <td style="text-align: center;"><span class="arithmatex">\({hydrogen}_{input}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(1.16\ \frac{MJ_{H_{2}}}{MJ_{{NH}_{3}}}\)</span></td>
-</tr>
-<tr>
-<td>Electricity demand Haber process</td>
-<td style="text-align: center;"><span class="arithmatex">\(el_{grid\_Haber}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(0.75\ \frac{MJ_{el}}{MJ_{NH_{3}}}\)</span></td>
-</tr>
-<tr>
-<td>Grid carbon intensity</td>
-<td style="text-align: center;"><span class="arithmatex">\(ci_{grid}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(100\ \frac{g\ CO_{2}eq}{kWh}\)</span></td>
-</tr>
-<tr>
-<td>Electricity demand cracking process</td>
-<td style="text-align: center;"><span class="arithmatex">\(el_{grid\_cracking}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(0.3\ \frac{MJ_{el}}{MJ_{H_{2}}}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(1.16 \frac{MJ_{H_{2}}}{MJ_{{NH}_{3}}}\)</span></td>
 </tr>
 <tr>
 <td>Ammonia demand for cracking</td>
 <td style="text-align: center;"><span class="arithmatex">\({ammonia}_{input}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(0.88\ \frac{MJ_{NH_{3}}}{MJ_{H_{2}}}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(0.88 \frac{MJ_{NH_{3}}}{MJ_{H_{2}}}\)</span></td>
+</tr>
+<tr>
+<td>Electricity demand Haber process</td>
+<td style="text-align: center;"><span class="arithmatex">\(el_{grid\_Haber}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(0.75 \frac{MJ_{el}}{MJ_{NH_{3}}}\)</span></td>
+</tr>
+<tr>
+<td>Electricity demand cracking process</td>
+<td style="text-align: center;"><span class="arithmatex">\(el_{grid\_cracking}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(0.3 \frac{MJ_{el}}{MJ_{H_{2}}}\)</span></td>
+</tr>
+<tr>
+<td>Grid carbon intensity</td>
+<td style="text-align: center;"><span class="arithmatex">\(ci_{grid}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(100 \frac{g\ CO_{2}eq}{kWh}\)</span></td>
 </tr>
 </tbody>
 </table>
 <p>As the output energy is bigger than the input energy, the electricity used in the cracking process needs to be considered as a relevant input.</p>
 <h2 id="calculation_2">Calculation:</h2>
 <p>Total carbon intensity: <span class="arithmatex">\({ci}_{H_{2}} = \left( {ammonia}_{input}*el_{grid\_Haber} + el_{grid\_cracking} \right)*ci_{grid} \approx 26.7\frac{g\ CO_{2}eq}{MJ}\)</span></p>
-<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_H_2} = \frac{{ammonia}_{input} * {hydrogen}_{input}}{{{ammonia}_{input} * hydrogen}_{input}  +  el_{grid\_cracking}} = \frac{1.02\ MJ}{1.02 + 0.3\ MJ} \approx 77\%\)</span></p>
+<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_H_{2}} = \frac{{ammonia}_{input} * {hydrogen}_{input}}{{{ammonia}_{input} * hydrogen}_{input}  +  el_{grid\_cracking}} = \frac{1.02\ MJ}{1.02 + 0.3\ MJ} \approx 77\%\)</span></p>
 <h2 id="conclusion_2">Conclusion:</h2>
 <p>This case study shows that some transport processes that need energy to split the transported product at destination might need to consider the energy needed for the split as relevant energy. If this energy is not fully renewable, the share of RFNBO will decrease.</p>
 <h1 id="rwgsft-to-kerosene">rWGS+FT to kerosene</h1>
@@ -572,16 +572,6 @@
 </tr>
 </thead>
 <tbody>
-<tr>
-<td>Relevant grid electricity used for the shift reaction</td>
-<td style="text-align: center;"><span class="arithmatex">\(el_{grid\_shift}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(80\ GWh\)</span></td>
-</tr>
-<tr>
-<td>Shift reaction grid carbon intensity</td>
-<td style="text-align: center;"><span class="arithmatex">\(ci_{grid\_shift}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(18\ \frac{g\ CO_{2}eq}{kWh}\)</span></td>
-</tr>
 <tr>
 <td>Relevant renewable electricity used</td>
 <td style="text-align: center;"><span class="arithmatex">\(el_{ren}\)</span></td>
@@ -613,14 +603,24 @@
 <td style="text-align: center;"><span class="arithmatex">\(30.3\frac{g\ CO_{2}eq}{MJ}\)</span></td>
 </tr>
 <tr>
-<td>Efficiency of the shift reaction</td>
-<td style="text-align: center;"><span class="arithmatex">\(\eta_{shift}\)</span></td>
-<td style="text-align: center;">$ 99\%$</td>
+<td>Relevant grid electricity used for the shift reaction</td>
+<td style="text-align: center;"><span class="arithmatex">\(el_{grid\_shift}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(80\ GWh\)</span></td>
 </tr>
 <tr>
 <td>Share of the (electric) heat energy ending up in the syngas</td>
 <td style="text-align: center;"><span class="arithmatex">\(s_{heat\_to\_heating\_value}\)</span></td>
 <td style="text-align: center;"><span class="arithmatex">\(10\%\)</span></td>
+</tr>
+<tr>
+<td>Efficiency of the shift reaction</td>
+<td style="text-align: center;"><span class="arithmatex">\(\eta_{shift}\)</span></td>
+<td style="text-align: center;">$ 99\%$</td>
+</tr>
+<tr>
+<td>Shift reaction grid carbon intensity</td>
+<td style="text-align: center;"><span class="arithmatex">\(ci_{grid\_shift}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(18 \frac{g\ CO_{2}eq}{kWh}\)</span></td>
 </tr>
 <tr>
 <td>Efficiency of the FT reaction</td>
@@ -657,6 +657,11 @@
 </thead>
 <tbody>
 <tr>
+<td>Energy ratio of syngas to hydrogen</td>
+<td style="text-align: center;"><span class="arithmatex">\(r_{sh}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(4\ \frac{MJ_{syngas}}{MJ_{hydrogen}}\)</span></td>
+</tr>
+<tr>
 <td>Efficiency of the FT reaction</td>
 <td style="text-align: center;"><span class="arithmatex">\(\eta_{FT}\)</span></td>
 <td style="text-align: center;"><span class="arithmatex">\(70\%\)</span></td>
@@ -671,16 +676,11 @@
 <td style="text-align: center;"><span class="arithmatex">\(ci_{bio\_syngas}\)</span></td>
 <td style="text-align: center;"><span class="arithmatex">\(20\ \frac{g\ CO_{2}eq}{{MJ}_{syngas}}\)</span></td>
 </tr>
-<tr>
-<td>Energy ratio of syngas to hydrogen</td>
-<td style="text-align: center;"><span class="arithmatex">\(r_{sh}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(4\ \frac{MJ_{syngas}}{MJ_{hydrogen}}\)</span></td>
-</tr>
 </tbody>
 </table>
 <h2 id="calculation_4">Calculation:</h2>
-<p>Total carbon intensity: <span class="arithmatex">\({ci}_{RFNBO - kerosene} = 0\ \frac{g\ CO_{2}eq}{MJ}\)</span></p>
-<p><span class="arithmatex">\({ci}_{bio-kerosene} = \frac{ci_{bio\_syngas}}{\eta_{FT}} = \ 28.6\ \frac{g\ CO_{2}eq}{MJ}\)</span></p>
+<p>Total carbon intensity: <span class="arithmatex">\({ci}_{RFNBO - kerosene} = 0 \frac{g\ CO_{2}eq}{MJ}\)</span></p>
+<p><span class="arithmatex">\({ci}_{bio-kerosene} = \frac{ci_{bio\_syngas}}{\eta_{FT}} = \ 28.6 \frac{g\ CO_{2}eq}{MJ}\)</span></p>
 <p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_kerosene} = \ \frac{1}{1 + r_{sh}} = 0.2\)</span></p>
 <h2 id="conclusion_4">Conclusion:</h2>
 <p>This case study shows that the streams are separated based on the energy in the inputs, and then the carbon intensity is calculated for each stream separately.</p>
@@ -699,6 +699,11 @@
 </thead>
 <tbody>
 <tr>
+<td>Energy ratio of syngas to hydrogen</td>
+<td style="text-align: center;"><span class="arithmatex">\(r_{sh}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(9\ \frac{MJ_{syngas}}{MJ_{hydrogen}}\)</span></td>
+</tr>
+<tr>
 <td>Efficiency of the FT reaction</td>
 <td style="text-align: center;"><span class="arithmatex">\(\eta_{FT}\)</span></td>
 <td style="text-align: center;"><span class="arithmatex">\(70\%\)</span></td>
@@ -712,11 +717,6 @@
 <td>Fossil syngas carbon intensity</td>
 <td style="text-align: center;"><span class="arithmatex">\(ci_{syngas}\)</span></td>
 <td style="text-align: center;"><span class="arithmatex">\(120\ \frac{g\ CO_{2}eq}{{MJ}_{syngas}}\)</span></td>
-</tr>
-<tr>
-<td>Energy ratio of syngas to hydrogen</td>
-<td style="text-align: center;"><span class="arithmatex">\(r_{sh}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(9\ \frac{MJ_{syngas}}{MJ_{hydrogen}}\)</span></td>
 </tr>
 </tbody>
 </table>
