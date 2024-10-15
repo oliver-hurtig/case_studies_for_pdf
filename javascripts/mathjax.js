@@ -18,7 +18,7 @@ window.MathJax = {
   
   document$.subscribe(() => { 
   
-    MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+    //MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
     MathJax.startup.output.clearCache()
     MathJax.typesetClear()
     MathJax.texReset()
