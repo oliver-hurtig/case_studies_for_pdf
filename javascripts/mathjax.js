@@ -20,7 +20,7 @@ window.MathJax = {
   
   
     //MathJax.startup.output.clearCache()
-    MathJax.typesetClear()
+    //MathJax.typesetClear()
     MathJax.texReset()
     MathJax.typesetPromise()
   })
