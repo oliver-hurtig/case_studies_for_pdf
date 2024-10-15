@@ -1,542 +1,5 @@
-
-<!doctype html>
-<html lang="en" class="no-js">
-  <head>
-    
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      
-      
-      
-      
-        <link rel="prev" href="../2-Fully-renewable-and-grid-electricity/">
-      
-      
-        <link rel="next" href="../4-rWGSFT-to-kerosene/">
-      
-      
-      <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
-    
-    
-      
-        <title>3: Ammonia + cracking - RFNBO & RCF case studies</title>
-      
-    
-    
-      <link rel="stylesheet" href="../assets/stylesheets/main.8c3ca2c6.min.css">
-      
-      
-
-
-    
-    
-      
-    
-    
-      
-        
-        
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-      
-    
-    
-      <link rel="stylesheet" href="../stylesheets/extra.css">
-    
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-    
-      
-
-    
-    
-    
-  </head>
-  
-  
-    <body dir="ltr">
-  
-    
-    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
-    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
-    <label class="md-overlay" for="__drawer"></label>
-    <div data-md-component="skip">
-      
-        
-        <a href="#3-ammonia-cracking" class="md-skip">
-          Skip to content
-        </a>
-      
-    </div>
-    <div data-md-component="announce">
-      
-    </div>
-    
-    
-      
-
-  
-
-<header class="md-header md-header--shadow" data-md-component="header">
-  <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="RFNBO &amp; RCF case studies" class="md-header__button md-logo" aria-label="RFNBO & RCF case studies" data-md-component="logo">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
-
-    </a>
-    <label class="md-header__button md-icon" for="__drawer">
-      
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
-    </label>
-    <div class="md-header__title" data-md-component="header-title">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
-            RFNBO & RCF case studies
-          </span>
-        </div>
-        <div class="md-header__topic" data-md-component="header-topic">
-          <span class="md-ellipsis">
-            
-              3: Ammonia + cracking
-            
-          </span>
-        </div>
-      </div>
-    </div>
-    
-    
-      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
-    
-    
-    
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-        </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-    
-    
-  </nav>
-  
-</header>
-    
-    <div class="md-container" data-md-component="container">
-      
-      
-        
-          
-        
-      
-      <main class="md-main" data-md-component="main">
-        <div class="md-main__inner md-grid">
-          
-            
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-
-
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
-  <label class="md-nav__title" for="__drawer">
-    <a href=".." title="RFNBO &amp; RCF case studies" class="md-nav__button md-logo" aria-label="RFNBO & RCF case studies" data-md-component="logo">
-      
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
-
-    </a>
-    RFNBO & RCF case studies
-  </label>
-  
-  <ul class="md-nav__list" data-md-scrollfix>
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href=".." class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Table of Contents
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../1-Water-electrolysis-pure-fully-renewables/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    1: Water electrolysis, pure fully renewables
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../2-Fully-renewable-and-grid-electricity/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    2: Fully renewable and grid electricity
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    3: Ammonia + cracking
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    3: Ammonia + cracking
-  </span>
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-    <a href="#assumptions" class="md-nav__link">
-      <span class="md-ellipsis">
-        Assumptions:
-      </span>
-    </a>
-  
-    <!-- Table of contents list -->
-    
-  </li>
-      
-        <li class="md-nav__item">
-    <a href="#calculation" class="md-nav__link">
-      <span class="md-ellipsis">
-        Calculation:
-      </span>
-    </a>
-  
-    <!-- Table of contents list -->
-    
-  </li>
-      
-        <li class="md-nav__item">
-    <a href="#conclusion" class="md-nav__link">
-      <span class="md-ellipsis">
-        Conclusion:
-      </span>
-    </a>
-  
-    <!-- Table of contents list -->
-    
-  </li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../4-rWGSFT-to-kerosene/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    4: rWGS+FT to kerosene
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../5-Biogenic-syngas-with-surplus-CO-and-RFNBO-hydrogen/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    5: Biogenic syngas with surplus CO and RFNBO hydrogen
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../6-Partly-replacing-fossil-inputs-like-in-coal-Fischer-Tropsch/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    6: Partly replacing fossil inputs like in coal Fischer Tropsch
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../7-Full-example-Mixed-RFNBO-and-low-carbon-hydrogen-transported-as-methanol-to-EU-and-transformed-to-diesel-and-kerosene/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    7: Full example: Mixed RFNBO and low-carbon hydrogen transported as methanol to EU and transformed to diesel and kerosene
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../faq/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Faq
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../toc/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Table of Contents
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-  </ul>
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-            
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-    <a href="#assumptions" class="md-nav__link">
-      <span class="md-ellipsis">
-        Assumptions:
-      </span>
-    </a>
-  
-    <!-- Table of contents list -->
-    
-  </li>
-      
-        <li class="md-nav__item">
-    <a href="#calculation" class="md-nav__link">
-      <span class="md-ellipsis">
-        Calculation:
-      </span>
-    </a>
-  
-    <!-- Table of contents list -->
-    
-  </li>
-      
-        <li class="md-nav__item">
-    <a href="#conclusion" class="md-nav__link">
-      <span class="md-ellipsis">
-        Conclusion:
-      </span>
-    </a>
-  
-    <!-- Table of contents list -->
-    
-  </li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
-          
-          
-            <div class="md-content" data-md-component="content">
-              <article class="md-content__inner md-typeset">
-                
-                  
-
-
-<h1 id="3-ammonia-cracking">3: Ammonia + cracking</h1>
-<p>How to determine if an energy input is “relevant”</p>
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<p><svg
+<svg
    width="880.09186"
    height="335.96985"
    viewBox="0 0 232.85782 88.892256"
@@ -558,15 +21,64 @@
         <style
    id="style1">
             .a{fill:#fff}.b{fill:#211715}.c{fill:#64a4d6}.d{fill:#febe69}.st1{fill:#7d828c}.st2{fill:#a4a5a6}.st0{fill:#000}
-        </style></p>
-<pre><code>&lt;/defs&gt;
-&lt;text
-</code></pre>
-<p>xml:space="preserve"
+        </style>
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </defs>
+    <text
+   xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:400;font-size:5.6224px;line-height:125%;font-family:Arial;text-align:start;letter-spacing:0;word-spacing:0;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
    x="-0.44223851"
    y="40.65625"
-   id="text22"&gt;<tspan
+   id="text22"><tspan
      x="-0.44223851"
      y="40.65625"
      id="tspan22"
@@ -1328,112 +840,4 @@
      d="m 192.412,111.73 c -15.801,6.177 2.193,7.498 -3.259,15.429 12.265,-7.91 -6.873,-7.591 3.259,-15.43 z m 0.41,1.056 c -6.956,4.477 5.144,6.678 1.161,11.742 7.24,-5.084 -4.587,-6.69 -1.162,-11.742 z m -7.473,1.745 c -6.578,4.4 3.938,7.03 2.305,11.958 3.963,-5.979 -6.01,-6.547 -2.305,-11.958 z"
      id="path1-36"
      style="fill:#c46a11;fill-opacity:1;stroke-width:0.0350727" /></a>
-</svg></p>
-<p>Cracking Ammonia is endothermic, the heat can be supplied electrically or by burning part of the ammonia. Here we assume that the energy is supplied electrically.</p>
-<h2 id="assumptions">Assumptions:</h2>
-<table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th style="text-align: center;">Symbol</th>
-<th style="text-align: center;">Example value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Hydrogen demand Haber process (ammonia production)</td>
-<td style="text-align: center;"><span class="arithmatex">\({hydrogen}_{input}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(1.16 \frac{MJ_{H_{2}}}{MJ_{{NH}_{3}}}\)</span></td>
-</tr>
-<tr>
-<td>Ammonia demand for cracking</td>
-<td style="text-align: center;"><span class="arithmatex">\({ammonia}_{input}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(0.88 \frac{MJ_{NH_{3}}}{MJ_{H_{2}}}\)</span></td>
-</tr>
-<tr>
-<td>Electricity demand Haber process</td>
-<td style="text-align: center;"><span class="arithmatex">\(el_{grid\_Haber}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(0.75 \frac{MJ_{el}}{MJ_{NH_{3}}}\)</span></td>
-</tr>
-<tr>
-<td>Electricity demand cracking process</td>
-<td style="text-align: center;"><span class="arithmatex">\(el_{grid\_cracking}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(0.3 \frac{MJ_{el}}{MJ_{H_{2}}}\)</span></td>
-</tr>
-<tr>
-<td>Grid carbon intensity</td>
-<td style="text-align: center;"><span class="arithmatex">\(ci_{grid}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(100 \frac{g\ CO_{2}eq}{kWh}\)</span></td>
-</tr>
-</tbody>
-</table>
-<p>As the output energy is bigger than the input energy, the electricity used in the cracking process needs to be considered as a relevant input.</p>
-<h2 id="calculation">Calculation:</h2>
-<p>Total carbon intensity: <span class="arithmatex">\({ci}_{H_{2}} = \left( {ammonia}_{input}*el_{grid\_Haber} + el_{grid\_cracking} \right)*ci_{grid} \approx 26.7\frac{g\ CO_{2}eq}{MJ}\)</span></p>
-<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_H_{2}} = \frac{{ammonia}_{input} * {hydrogen}_{input}}{{{ammonia}_{input} * hydrogen}_{input}  +  el_{grid\_cracking}} = \frac{1.02\ MJ}{1.02 + 0.3\ MJ} \approx 77\%\)</span></p>
-<h2 id="conclusion">Conclusion:</h2>
-<p>This case study shows that some transport processes that need energy to split the transported product at destination might need to consider the energy needed for the split as relevant energy. If this energy is not fully renewable, the share of RFNBO will decrease.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-                
-              </article>
-            </div>
-          
-          
-  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
-
-<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
-        </div>
-        
-      </main>
-      
-        <footer class="md-footer">
-  
-  <div class="md-footer-meta md-typeset">
-    <div class="md-footer-meta__inner md-grid">
-      <div class="md-copyright">
-  
-  
-    Made with
-    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
-      Material for MkDocs
-    </a>
-  
-</div>
-      
-    </div>
-  </div>
-</footer>
-      
-    </div>
-    <div class="md-dialog" data-md-component="dialog">
-      <div class="md-dialog__inner md-typeset"></div>
-    </div>
-    
-    
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.instant.preview", "content.tabs.link"], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
-    
-    
-      <script src="../assets/javascripts/bundle.525ec568.min.js"></script>
-      
-        <script src="../javascripts/mathjax.js"></script>
-      
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-      
-        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-      
-        <script src="../javascripts/extra.js"></script>
-      
-    
-  </body>
-</html>
+</svg>
