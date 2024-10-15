@@ -691,6 +691,62 @@
 <p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ H2} = 0\%\)</span> because threshold of <span class="arithmatex">\(28.2 \frac{g}{MJ}\)</span> is not met.</p>
 <h2 id="conclusion_1">Conclusion:</h2>
 <p>This case study shows how averaging over shorter time scales can exclude some periods with low renewables from the RFNBO production. In other cases that are not shown here, the contrary could happen that the average over a longer period has a too high carbon intensity to qualify.</p>
+<h1 id="2-fully-renewable-and-grid-electricity_2">2: Fully renewable and grid electricity</h1>
+<p>How to average over different timeframes</p>
+<p><img src="images/cs2_grid.svg" style="width:50%" /></p>
+<p>Electrolyser running at 764 MW with a mix of mostly renewable electricity, complemented by grid electricity.</p>
+<h2 id="assumptions_2">Assumptions:</h2>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Symbol</th>
+<th style="text-align: center;">Monthly averaging</th>
+<th style="text-align: center;">Hourly averaging</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grid carbon intensity</td>
+<td><span class="arithmatex">\(ci_{grid}\)</span></td>
+<td colspan="2" style="text-align: center;"><span class="arithmatex">\(100 \frac{g\ CO_{2}eq}{kWh}\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td>Relevant renewable electricity used</td>
+<td><span class="arithmatex">\(el_{ren}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(500\ GWh\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(264\ MWh\)</span></td>
+</tr>
+<tr>
+<td>Relevant grid electricity used</td>
+<td><span class="arithmatex">\(el_{grid\_ely}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(50\ GWh\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(500\ MWh\)</span></td>
+</tr>
+<tr>
+<td>Grid electricity for auxiliaries</td>
+<td><span class="arithmatex">\(el_{grid\_aux}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(0.5\ GWh\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(0.7\ MWh\)</span></td>
+</tr>
+<tr>
+<td>Efficiency of the electrolyser</td>
+<td><span class="arithmatex">\(\eta_{ely}\)</span></td>
+<td colspan="2" style="text-align: center;"><span class="arithmatex">\(60\%\)</span></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="calculation_2">Calculation:</h2>
+<h3 id="monthly-averaging_2">Monthly averaging:</h3>
+<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_H2} = \frac{el_{ren}}{el_{ren} + {el}_{grid\_ely}\ \ \ } = \frac{500\ GWh}{550\ GWh} \approx 91\%\)</span></p>
+<p>Total carbon intensity: <span class="arithmatex">\({ci}_{H2} = \frac{\left( {el}_{grid\_ ely} + el_{grid\_aux} \right) * ci_{grid}}{\left( el_{ren} + {el}_{grid\_ely} \right)\ \eta_{ely}} = \frac{50.5\ GWh*100\ g/kWh}{550\ GWh*60\%} \approx 4.3\frac{g\ CO_{2}eq}{MJ}\)</span></p>
+<h3 id="hourly-averaging-low-renewables_2">Hourly averaging, low renewables:</h3>
+<p>Total carbon intensity: <span class="arithmatex">\({ci}_{H2} = \frac{\left( {el}_{grid\_ely} + el_{grid\_aux} \right) * ci_{grid}}{\left(el_{ren} + {el}_{grid\_ely} \right) * \eta_{ely}} = \frac{500.7\ MWh*100\frac{g}{kWh}}{764\ MWh*60\%} \approx 30.3\frac{g\ CO_{2}eq}{MJ}\)</span></p>
+<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ H2} = 0\%\)</span> because threshold of <span class="arithmatex">\(28.2 \frac{g}{MJ}\)</span> is not met.</p>
+<h2 id="conclusion_2">Conclusion:</h2>
+<p>This case study shows how averaging over shorter time scales can exclude some periods with low renewables from the RFNBO production. In other cases that are not shown here, the contrary could happen that the average over a longer period has a too high carbon intensity to qualify.</p>
 
 
 
