@@ -1111,13 +1111,19 @@
 </table>
 <h2 id="calculation">Calculation</h2>
 <h3 id="if-looking-only-at-the-shift-reaction">If looking only at the shift reaction</h3>
-<p>Energy coming out of the shift reaction: <span class="arithmatex">\({En}_{output} = \left({prod}_{RFNBO-H2} + {prod}_{LC-H2} \right) \times \eta_{shift} + el_{grid\_shift} \times s_{heat\_to\_heating\_value} = 334.7\ \color{grey}{GWh}\)</span></p>
+<p>Energy coming out of the shift reaction: </p>
+<div class="arithmatex">\[
+{En}_{output} = \left({prod}_{RFNBO-H2} + {prod}_{LC-H2} \right) \times \eta_{shift} + el_{grid\_shift} \times s_{heat\_to\_heating\_value} = 334.7\ \color{grey}{GWh}
+\]</div>
 <p>This is higher than the hydrogen input, so the electricity has to be considered a relevant input.</p>
 <p>Total carbon intensity: </p>
 <div class="arithmatex">\[
 {ci}_{kerosene} = \frac{{ci}_{H2} + el_{grid\_shift}  \times  ci_{grid\_shift}}{{En}_{output}  \times  \eta_{FT}} \approx 27.7\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{kerosene}\right.}
 \]</div>
-<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_kerosene} = \frac{{prod}_{RFNBO-H2}}{{prod}_{RFNBO-H2} + {prod}_{LC-H2} + el_{grid\_shift}} \approx 73\color{grey}{\%}\)</span></p>
+<p>Share of RFNBO in the output is </p>
+<div class="arithmatex">\[
+s_{RFNBO\_kerosene} = \frac{{prod}_{RFNBO-H2}}{{prod}_{RFNBO-H2} + {prod}_{LC-H2} + el_{grid\_shift}} \approx 73\color{grey}{\%}
+\]</div>
 <h3 id="if-looking-at-the-shift-and-ft-reaction-as-an-integrated-process">If looking at the shift and FT reaction as an integrated process</h3>
 <p>Energy coming out of the FT reaction: <span class="arithmatex">\({En}_{output} = \left({prod}_{H2} \times \eta_{shift} + el_{grid\_shift} \times s_{heat\_to\_heating\_value} \right)  \times  \eta_{FT} = 234.3\ \color{grey}{GWh}\)</span></p>
 <p>This is lower than the hydrogen input, so the electricity does not have to be considered a relevant input.</p>
@@ -1125,7 +1131,10 @@
 <div class="arithmatex">\[
 {ci}_{kerosene} \approx 27.7\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{kerosene}\right.}
 \]</div>
-<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ H2} = \frac{{prod}_{RFNBO-H2}}{{prod}_{RFNBO-H2} + {prod}_{LC-H2}} = \frac{300\ GWh}{330\ GWh} \approx 91\color{grey}{\%}\)</span></p>
+<p>Share of RFNBO in the output is </p>
+<div class="arithmatex">\[
+s_{RFNBO\_ H2} = \frac{{prod}_{RFNBO-H2}}{{prod}_{RFNBO-H2} + {prod}_{LC-H2}} = \frac{300\ GWh}{330\ GWh} \approx 91\color{grey}{\%}
+\]</div>
 <h2 id="conclusion">Conclusion</h2>
 <p>This case study shows that if looking at the processes separately, under certain circumstances it is possible that the energy content is increased, and that the electricity has to be counted as relevant input. In this case, the share of RFNBO in the output changes, but the carbon intensity remains the same.</p>
 
