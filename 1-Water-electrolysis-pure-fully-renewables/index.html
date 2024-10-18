@@ -1028,42 +1028,42 @@
 <tr>
 <td>Grid electricity for auxiliaries</td>
 <td style="text-align: center;"><span class="arithmatex">\(el_{grid\_aux}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(0.05 \frac{kWh_el}{MJ_{hydrogen}}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(0.05 \left.kWh_{el}\middle/MJ_{hydrogen}\right.\)</span></td>
 </tr>
 <tr>
 <td>economic value of RFNBO hydrogen</td>
 <td style="text-align: center;"><span class="arithmatex">\(v_{hydrogen}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(6 \frac{\unicode{x20AC}}{{kg}_{hydrogen}}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(6 \left.\unicode{x20AC}\middle/{kg}_{oxygen}\right.\)</span></td>
 </tr>
 <tr>
 <td>economic value of oxygen</td>
 <td style="text-align: center;"><span class="arithmatex">\(v_{oxygen}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(0.3 \frac{\unicode{x20AC}}{{kg}_{oxygen}}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(0.3 \left.\unicode{x20AC}\middle/{kg}_{oxygen}\right.\)</span></td>
 </tr>
 <tr>
 <td>mass of produced oxygen per kg of hydrogen</td>
 <td style="text-align: center;"><span class="arithmatex">\(r_{oh}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(\ \frac{{kg}_{oxygen}}{{kg}_{hydrogen}}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(\ \left.{kg}_{oxygen}\middle/{kg}_{hydrogen}\right.\)</span></td>
 </tr>
 <tr>
 <td>Fully renewable electricity carbon intensity</td>
 <td style="text-align: center;"><span class="arithmatex">\(ci_{ren}\)</span></td>
-<td style="text-align: center;">$0 \left.\mathrm{g\,CO_2\,eq}\middle/\mathrm{kWh}\right $</td>
+<td style="text-align: center;"><span class="arithmatex">\(0\ \left.g\,CO_2\,eq\middle/kWh_el\right.\)</span></td>
 </tr>
 <tr>
 <td>Grid carbon intensity</td>
 <td style="text-align: center;"><span class="arithmatex">\(ci_{grid}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(100 \ \left.g\,CO_2\,eq\middle/kWh\right \frac{g\ CO_{2}eq}{kWh}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(100 \ \left.g\,CO_2\,eq\middle/kWh_el\right.\)</span></td>
 </tr>
 </tbody>
 </table>
 <h2 id="calculation">Calculation</h2>
-<p>Emissions attributed to hydrogen: <span class="arithmatex">\(<span class="arithmatex">\(E = \left(ci_{ren}*\eta + {ci}_{grid} * el_{grid\_aux}\right) * \frac{v_{hydrogen}}{v_{hydrogen} + v_{oxygen}*r_{oh}} = 3.57\frac{g\ CO_{2}eq}{{MJ}_{hydrogen}}\)</span>\)</span></p>
+<p>Emissions attributed to hydrogen: <span class="arithmatex">\(<span class="arithmatex">\(E = \left(ci_{ren} \times \eta_{ely} + {ci}_{grid} \times el_{grid\_aux}\right) \times \frac{v_{hydrogen}}{v_{hydrogen} + v_{oxygen} \times r_{oh}} = 3.57\ \left.g\,CO_2\,eq\middle/MJ_{hydrogen}\right.\)</span>\)</span></p>
 <details class="success">
 <summary>Threshold reached</summary>
-<p>The threshold of <span class="arithmatex">\(28.2 \frac{g\ CO_{2}eq}{MJ}\)</span> is met. We can declare the fuel as RFNBO (or low carbon fuel).</p>
+<p>The threshold of <span class="arithmatex">\(28.2 \left.g\,CO_2\,eq\middle/MJ_{hydrogen}\right.\)</span> is met. We can declare the fuel as RFNBO (or low carbon fuel).</p>
 </details>
-<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_H2} = 100\%\)</span></p>
+<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_H_2} = 100\%\)</span></p>
 <h2 id="conclusion">Conclusion</h2>
 <p>This case study shows that the share of RFNBO is calculated on the energy share of relevant inputs, while emissions are calculated based on all emissions, including auxiliaries. The emissions can be attributed to co-products, in case of products without energy content, economic allocation is used.</p>
 
