@@ -1184,39 +1184,39 @@
 <tr>
 <td>Fully renewable electricity carbon intensity</td>
 <td><span class="arithmatex">\(ci_{ren}\)</span></td>
-<td colspan="2" style="text-align: center;"><span class="arithmatex">\(0 \color{grey}{\left.g\,CO_2\,eq\middle/kWh_{el}\right.}\)</span></td>
+<td colspan="2" style="text-align: center;"><span class="arithmatex">\(0\ \color{grey}{\left.g\,CO_2\,eq\middle/kWh_{el}\right.}\)</span></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr>
 <td>Grid carbon intensity</td>
 <td><span class="arithmatex">\(ci_{grid}\)</span></td>
-<td colspan="2" style="text-align: center;"><span class="arithmatex">\(100 \color{grey}{\left.g\,CO_2\,eq\middle/kWh_{el}\right.}\)</span></td>
+<td colspan="2" style="text-align: center;"><span class="arithmatex">\(100\ \color{grey}{\left.g\,CO_2\,eq\middle/kWh_{el}\right.}\)</span></td>
 <td style="text-align: center;"></td>
 </tr>
 </tbody>
 </table>
 <h2 id="calculation">Calculation</h2>
 <h3 id="hourly-averaging-low-renewables">Hourly averaging, low renewables</h3>
-<p>Amount of hydrogen produced: <span class="arithmatex">\({prod}_{H2} = \left(el_{ren} + {el}_{grid\_ely} \right) * \eta_{ely} \approx 1\,650\,000\ \color{MJ}\)</span></p>
+<p>Amount of hydrogen produced: <span class="arithmatex">\({prod}_{H2} = \left(el_{ren} + {el}_{grid\_ely} \right)  \times  \eta_{ely} \approx 1\,650\,000\ \color{grey}{MJ}\)</span></p>
 <p>Total carbon intensity:
-<span class="arithmatex">\(<span class="arithmatex">\({ci}_{H2} = \frac{\left( {el}_{grid\_ely} + el_{grid\_aux} \right) * ci_{grid}}{{prod}_{H2}} \approx 30.3\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{hydrogen}\right.}\)</span>\)</span></p>
+<span class="arithmatex">\({ci}_{H2} = \frac{\left( {el}_{grid\_ely} + el_{grid\_aux} \right)  \times  ci_{grid}}{{prod}_{H2}} \approx 30.3\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{hydrogen}\right.}\)</span></p>
 <details class="failure">
 <summary>Threshold not reached</summary>
-<p>The threshold of <span class="arithmatex">\(28.2 \frac{g\ CO_{2}eq}{MJ}\)</span> is not met. We cannot declare the fuel as RFNBO (or low carbon fuel).</p>
+<p>The threshold of <span class="arithmatex">\(28.2\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{hydrogen}\right.}\)</span> is not met. We cannot declare the fuel as RFNBO (or low carbon fuel).</p>
 </details>
-<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ H2} = 0\%\)</span> because threshold is not met.</p>
+<p>Share of RFNBO in the output: <span class="arithmatex">\(s_{RFNBO\_H_2} = 0\color{grey}{\%}\)</span> because threshold is not met.</p>
 <details class="tip">
 <summary>Hour with high renewables</summary>
 <p>This example should not imply that hourly averaging is bad. In other hours, the share of renewables is higher than the average, and a higher share of the production can be declared as RFNBO. In many cases, monthly averaging might not reach the threshold, and the whole monthly production could not be declared as RFNBO.</p>
 </details>
 <h3 id="monthly-averaging">Monthly averaging</h3>
-<p>Amount of hydrogen produced: <span class="arithmatex">\({prod}_{H2} = \left(el_{ren} + {el}_{grid\_ely} \right) * \eta_{ely} \approx 1 980 000 000\ MJ\)</span></p>
-<p>Total carbon intensity: <span class="arithmatex">\({ci}_{H2} = \frac{\left( {el}_{grid\_ ely} + el_{grid\_aux} \right) * ci_{grid}}{{prod}_{H2}} = \frac{5 050 000 000\ g}{1 980 000 000\ MJ} \approx 4.3\frac{g\ CO_{2}eq}{MJ}\)</span></p>
+<p>Amount of hydrogen produced: <span class="arithmatex">\({prod}_{H2} = \left(el_{ren} + {el}_{grid\_ely} \right)  \times  \eta_{ely} \approx 1 980 000 000\ \color{grey}{MJ}\)</span></p>
+<p>Total carbon intensity: <span class="arithmatex">\({ci}_{H2} = \frac{\left( {el}_{grid\_ ely} + el_{grid\_aux} \right)  \times  ci_{grid}}{{prod}_{H2}} \approx 4.3\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{hydrogen}\right.}\)</span></p>
 <details class="success">
 <summary>Threshold reached</summary>
-<p>The threshold of <span class="arithmatex">\(28.2 \frac{g\ CO_{2}eq}{MJ}\)</span> is met. We can declare the fuel as RFNBO (or low carbon fuel).</p>
+<p>The threshold of <span class="arithmatex">\(28.2\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{hydrogen}\right.}\)</span> is met. We can declare the fuel as RFNBO (or low carbon fuel).</p>
 </details>
-<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_H2} = \frac{el_{ren}}{el_{ren} + {el}_{grid\_ely}\ \ \ } = \frac{500\ GWh}{550\ GWh} \approx 91\%\)</span></p>
+<p>Share of RFNBO in the output: <span class="arithmatex">\(s_{RFNBO\_H_2} = \frac{el_{ren}}{el_{ren} + {el}_{grid\_ely}} \approx 91\color{grey}{\%}\)</span></p>
 <h2 id="conclusion">Conclusion</h2>
 <p>This case study shows how averaging over shorter time scales can exclude some periods with low renewables from the RFNBO production. In other cases that are not shown here, the contrary could happen that the average over a longer period has a too high carbon intensity to qualify.</p>
 

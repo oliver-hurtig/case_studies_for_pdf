@@ -894,34 +894,34 @@
 <tr>
 <td>Hydrogen demand Haber process (ammonia production)</td>
 <td style="text-align: center;"><span class="arithmatex">\({hydrogen}_{input}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(1.16 \frac{MJ_{H_{2}}}{MJ_{{NH}_{3}}}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(1.16\ \color{grey}{\left.MJ_{H_2}\middle/MJ_{{NH}_3}\right.}\)</span></td>
 </tr>
 <tr>
 <td>Ammonia demand for cracking</td>
 <td style="text-align: center;"><span class="arithmatex">\({ammonia}_{input}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(0.88 \frac{MJ_{NH_{3}}}{MJ_{H_{2}}}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(0.88\ \color{grey}{\left.MJ_{{NH}_3}\middle/MJ_{H_2}\right.}\)</span></td>
 </tr>
 <tr>
 <td>Electricity demand Haber process</td>
 <td style="text-align: center;"><span class="arithmatex">\(el_{grid\_Haber}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(0.75 \frac{MJ_{el}}{MJ_{NH_{3}}}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(0.75\ \color{grey}{\left.MJ_{el}}\middle/MJ_{{NH}_3}\right.}\)</span></td>
 </tr>
 <tr>
 <td>Electricity demand for heat, cracking process</td>
 <td style="text-align: center;"><span class="arithmatex">\(el_{grid\_cracking}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(0.3 \frac{MJ_{el}}{MJ_{H_{2}}}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(0.3\ \color{grey}{\left.MJ_{el}}\middle/MJ_{H_2}\right.}\)</span></td>
 </tr>
 <tr>
 <td>Grid carbon intensity</td>
 <td style="text-align: center;"><span class="arithmatex">\(ci_{grid}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(100 \frac{g\ CO_{2}eq}{kWh}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(100\ \color{grey}{\left.g\,CO_2\,eq\middle/kWh_{el}\right.}\)</span></td>
 </tr>
 </tbody>
 </table>
 <p>As the output energy is bigger than the input energy, the electricity used in the cracking process needs to be considered as a relevant input.</p>
 <h2 id="calculation">Calculation</h2>
-<p>Total carbon intensity: <span class="arithmatex">\({ci}_{H_{2}} = \left( {ammonia}_{input}*el_{grid\_Haber} + el_{grid\_cracking} \right)*ci_{grid} \approx 26.7\frac{g\ CO_{2}eq}{MJ}\)</span></p>
-<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_H_{2}} = \frac{{ammonia}_{input} * {hydrogen}_{input}}{{{ammonia}_{input} * hydrogen}_{input}  +  el_{grid\_cracking}} = \frac{1.02\ MJ}{1.02 + 0.3\ MJ} \approx 77\%\)</span></p>
+<p>Total carbon intensity:<span class="arithmatex">\({ci}_{H_2} = \left( {ammonia}_{input} \times el_{grid\_Haber} + el_{grid\_cracking} \right) \times ci_{grid} \approx 26.7\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{hydrogen}\right.}\)</span></p>
+<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_H_{2}} = \frac{{ammonia}_{input}  \times  {hydrogen}_{input}}{{{ammonia}_{input}  \times  hydrogen}_{input}  +  el_{grid\_cracking}} \approx 77\color{grey}{\%}\)</span></p>
 <h2 id="conclusion">Conclusion</h2>
 <p>This case study shows that some transport processes that need energy to split the transported product at destination might need to consider the energy needed for the split as relevant energy. If this energy is not fully renewable, the share of RFNBO will decrease.</p>
 
