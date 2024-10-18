@@ -1160,45 +1160,48 @@
 <tr>
 <td>Efficiency of the electrolyser</td>
 <td><span class="arithmatex">\(\eta_{ely}\)</span></td>
-<td colspan="2" style="text-align: center;"><span class="arithmatex">\(60\%\)</span></td>
+<td colspan="2" style="text-align: center;"><span class="arithmatex">\(60\color{grey}{\%}\)</span></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr>
 <td>Relevant renewable electricity used</td>
 <td><span class="arithmatex">\(el_{ren}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(500\ GWh\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(264\ MWh\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(500\ \color{grey}{GWh}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(264\ \color{grey}{MWh}\)</span></td>
 </tr>
 <tr>
 <td>Relevant grid electricity used</td>
 <td><span class="arithmatex">\(el_{grid\_ely}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(50\ GWh\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(500\ MWh\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(50\ \color{grey}{GWh}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(500\ \color{grey}{MWh}\)</span></td>
 </tr>
 <tr>
 <td>Grid electricity for auxiliaries</td>
 <td><span class="arithmatex">\(el_{grid\_aux}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(0.5\ GWh\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(0.7\ MWh\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(0.5\ \color{grey}{GWh}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(0.7\ \color{grey}{MWh}\)</span></td>
 </tr>
 <tr>
 <td>Fully renewable electricity carbon intensity</td>
 <td><span class="arithmatex">\(ci_{ren}\)</span></td>
-<td colspan="2" style="text-align: center;"><span class="arithmatex">\(0 \frac{g\ CO_{2}eq}{kWh}\)</span></td>
+<td colspan="2" style="text-align: center;"><span class="arithmatex">\(0 \color{grey}{\left.g\,CO_2\,eq\middle/kWh_{el}\right.}\)</span></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr>
 <td>Grid carbon intensity</td>
 <td><span class="arithmatex">\(ci_{grid}\)</span></td>
-<td colspan="2" style="text-align: center;"><span class="arithmatex">\(100 \frac{g\ CO_{2}eq}{kWh}\)</span></td>
+<td colspan="2" style="text-align: center;"><span class="arithmatex">\(100 \color{grey}{\left.g\,CO_2\,eq\middle/kWh_{el}\right.}\)</span></td>
 <td style="text-align: center;"></td>
 </tr>
 </tbody>
 </table>
 <h2 id="calculation">Calculation</h2>
 <h3 id="hourly-averaging-low-renewables">Hourly averaging, low renewables</h3>
-<p>Amount of hydrogen produced: <span class="arithmatex">\({prod}_{H2} = \left(el_{ren} + {el}_{grid\_ely} \right) * \eta_{ely} \approx 1 650 000\ MJ\)</span></p>
-<p>Total carbon intensity: <span class="arithmatex">\({ci}_{H2} = \frac{\left( {el}_{grid\_ely} + el_{grid\_aux} \right) * ci_{grid}}{{prod}_{H2}} = \frac{50 070 000\ g}{1 650 000\ MJ} \approx 30.3\frac{g\ CO_{2}eq}{MJ}\)</span></p>
+<p>Amount of hydrogen produced: <span class="arithmatex">\({prod}_{H2} = \left(el_{ren} + {el}_{grid\_ely} \right) * \eta_{ely} \approx 1\,650\,000\ \color{MJ}\)</span></p>
+<p>Total carbon intensity:
+\[
+<span class="arithmatex">\({ci}_{H2} = \frac{\left( {el}_{grid\_ely} + el_{grid\_aux} \right) * ci_{grid}}{{prod}_{H2}} = \frac{50 070 000\ g}{1 650 000\ MJ} \approx 30.3\frac{g\ CO_{2}eq}{MJ}\)</span>
+\]</p>
 <details class="failure">
 <summary>Threshold not reached</summary>
 <p>The threshold of <span class="arithmatex">\(28.2 \frac{g\ CO_{2}eq}{MJ}\)</span> is not met. We cannot declare the fuel as RFNBO (or low carbon fuel).</p>
