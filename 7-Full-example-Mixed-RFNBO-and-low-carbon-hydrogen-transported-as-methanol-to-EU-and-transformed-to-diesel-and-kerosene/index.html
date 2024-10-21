@@ -1455,7 +1455,22 @@
 </ul>
 <h3 id="example-in-this-case-study">Example in this case study</h3>
 <p>Renewable electricity is sourced in the third country via a direct connection and a PPA with additionality, temporal and geographical correlation are met. The relevant time period considered is one month.</p>
-<p>Total carbon intensity: <span class="arithmatex">\(ci_{ren} = 0\ \frac{g\ CO_{2}eq}{kWh}\)</span></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th style="text-align: center;">Symbol</th>
+<th style="text-align: center;">Example value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Total carbon intensity</td>
+<td style="text-align: center;">$ci_{ren}</td>
+<td style="text-align: center;">0 \color{grey}{\left.g\,CO_2\,eq\middle/kWh_{el}\right.}$</td>
+</tr>
+</tbody>
+</table>
 </details>
 <details>
 <summary>Grid electricity</summary>
@@ -1472,7 +1487,22 @@
 <h3 id="auxiliaries-powered-by-grid-electricity">Auxiliaries powered by grid electricity</h3>
 <p>Auxiliaries can be powered by grid electricity. The emission intensity of this electricity has to be taken into account, but the share of RFNBO in the output is not affected. <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1185&amp;qid=1706886791166#anx_1">GHG.3</a> <a href="../faq/#Q11">Q11</a> </p>
 <h3 id="example-in-this-case-study_1">Example in this case study</h3>
-<p>Total carbon intensity: <span class="arithmatex">\(ci_{grid} = 100\ \frac{g\ CO_{2}eq}{kWh}\)</span></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th style="text-align: center;">Symbol</th>
+<th style="text-align: center;">Example value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Total carbon intensity</td>
+<td style="text-align: center;">$ci_{grid}</td>
+<td style="text-align: center;">100 \color{grey}{\left.g\,CO_2\,eq\middle/kWh_{el}\right.}$</td>
+</tr>
+</tbody>
+</table>
 </details>
 <details>
 <summary>Electrolysis</summary>
@@ -1490,35 +1520,115 @@
 </ul>
 <h3 id="example-in-this-case-study_2">Example in this case study</h3>
 <p>The relevant time period considered is one month.</p>
-<p>Relevant renewable electricity used: <span class="arithmatex">\(el_{ren} = 500\ GWh\)</span></p>
-<p>Relevant grid electricity used: <span class="arithmatex">\(el_{grid\_ ely\ } = 50\ GWh\)</span></p>
-<p>Grid electricity for auxiliaries: <span class="arithmatex">\(el_{grid\_ aux} = 0.5\ GWh\)</span></p>
-<p>Efficiency of the electrolyser <span class="arithmatex">\(\eta_{ely} = 60\%\)</span></p>
-<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ H2} = \ \frac{el_{ren}}{el_{ren} + {el}_{grid\_ ely}\ \ \ } = \frac{500\ GWh}{550\ GWh} \approx 91\%\)</span></p>
-<p>Total carbon intensity: <span class="arithmatex">\({ci}_{H2} = \ \frac{\left( {el}_{grid\_ ely} + el_{grid\_ aux} \right)\ ci_{grid}}{\left( el_{ren} + {el}_{grid\_ ely} \right)\ \eta_{ely}\ \ } = \frac{50.5\ GWh\ 100\ g/kWh}{550\ GWh\ 60\%} \approx 4.3\frac{g\ CO_{2}eq}{MJ}\)</span></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th style="text-align: center;">Symbol</th>
+<th style="text-align: center;">Example value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Relevant renewable electricity used</td>
+<td style="text-align: center;">$el_{ren}</td>
+<td style="text-align: center;">500 \color{grey}{GWh}$</td>
+</tr>
+<tr>
+<td>Relevant grid electricity used</td>
+<td style="text-align: center;">$el_{grid_ely}</td>
+<td style="text-align: center;">50 \color{grey}{GWh}$</td>
+</tr>
+<tr>
+<td>Grid electricity for auxiliaries</td>
+<td style="text-align: center;">$el_{grid_aux}</td>
+<td style="text-align: center;">0.5 \color{grey}{GWh}$</td>
+</tr>
+<tr>
+<td>Efficiency of the electrolyser</td>
+<td style="text-align: center;">$\eta_{ely}</td>
+<td style="text-align: center;">60\color{grey}{\%}$</td>
+</tr>
+</tbody>
+</table>
+<p>Total carbon intensity: </p>
+<div class="arithmatex">\[{ci}_{H2} = \frac{\left( {el}_{grid\_ely} + el_{grid\_aux} \right) \times ci_{grid}}{\left( el_{ren} + {el}_{grid\_ely} \right) \times \eta_{ely}} \approx 4.3\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ\right.}\]</div>
+<p>Share of RFNBO in the output:  <span class="arithmatex">\(s_{RFNBO\_H2}  \frac{el_{ren}}{el_{ren} + {el}_{grid\_ely}} \approx 91\%\)</span></p>
 </details>
 <details>
 <summary>CO<sub>2</sub> source</summary>
 <h2 id="co2-source">CO<sub>2</sub> source</h2>
 <h3 id="eligibility-for-the-eex-use-credit">Eligibility for the e<sub>ex use</sub> “credit”</h3>
 <ul>
-<li>The carbon incorporated into the fuel can be counted as negative emissions if it would have otherwise been emitted as CO<sub>2</sub> to the atmosphere and stems from air capture, biofuel, RCF or RFNBO production or combustion or an already emitting geological source. Until 2035, also fossil CO2 is eligible if taken into account in an effective carbon pricing system. <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1185&amp;qid=1706886791166#anx_1">GHG.10</a> <a href="../faq/#Q36">Q36</a> <a href="../faq/#Q37">Q37</a> <a href="../faq/#Q38">Q38</a> <a href="../faq/#Q39">Q39</a> <a href="../faq/#Q40">Q40</a> <a href="../faq/#Q41">Q41</a> <a href="../faq/#Q43">Q43</a> <a href="../faq/#Q42">Q42</a> <a href="../faq/#Q43">Q43</a> <a href="../faq/#Q44">Q44</a> [Q-Annex3]</li>
+<li>The carbon incorporated into the fuel can be counted as negative emissions if it would have otherwise been emitted as CO<sub>2</sub> to the atmosphere and stems from air capture, biofuel, RCF or RFNBO production or combustion or an already emitting geological source. Until 2035, also fossil CO2 is eligible if taken into account in an effective carbon pricing system. <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1185&amp;qid=1706886791166#anx_1">GHG.10</a> <a href="../faq/#Q36">Q36</a> <a href="../faq/#Q37">Q37</a> <a href="../faq/#Q38">Q38</a> <a href="../faq/#Q39">Q39</a> <a href="../faq/#Q40">Q40</a> <a href="../faq/#Q41">Q41</a> <a href="../faq/#Q43">Q43</a> <a href="../faq/#Q42">Q42</a> <a href="../faq/#Q43">Q43</a> <a href="../faq/#Q44">Q44</a> <a href="https://energy.ec.europa.eu/document/download/21fb4725-7b32-4264-9f36-96cd54cff148_en?filename=2024%2003%2014%20Document%20on%20Certification.pdf">Q-Annex3</a></li>
 </ul>
 <h3 id="example-in-this-case-study_3">Example in this case study</h3>
 <p>The CO<sub>2</sub> comes from a biomass boiler.</p>
-<p>Emissions from CO<sub>2</sub> capture and supply: <span class="arithmatex">\(e_{bio\_ supply} = 3.6\frac{g\ CO_{2}eq}{kg\ CO_{2}}\)</span></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th style="text-align: center;">Symbol</th>
+<th style="text-align: center;">Example value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Emissions from CO<sub>2</sub> capture and supply</td>
+<td style="text-align: center;">$e_{bio_supply}</td>
+<td style="text-align: center;">3.6 \color{grey}{\left.g\,CO_2\,eq\middle/kg CO_{2}\right.}$</td>
+</tr>
+</tbody>
+</table>
 </details>
 <details>
 <summary>Methanol production</summary>
 <h2 id="methanol-production">Methanol production</h2>
 <h3 id="example-in-this-case-study_4">Example in this case study</h3>
 <p>The inputs are supplied by the processes described above, the auxiliaries use grid electricity. We assume no additional non-biogenic GHG emissions in the process.</p>
-<p>Input of hydrogen: <span class="arithmatex">\(meoh_{H2} = 1.2\frac{MJ_{H2}}{MJ_{MeOH}}\)</span></p>
-<p>Input of CO<sub>2</sub>: <span class="arithmatex">\(meoh_{CO2} = 0.075\ \frac{kg\ CO_{2}}{MJ_{MeOH}}\)</span></p>
-<p>Input of electricity: <span class="arithmatex">\(meoh_{el} = 0.05\ \frac{MJ_{el}}{MJ_{MeOH}}\)</span></p>
-<p>Share of RFNBO in the output is <span class="arithmatex">\(s_{RFNBO\_ MeOH} = \ 91\%\)</span></p>
-<p>Conversion rate of CO<sub>2</sub>: <span class="arithmatex">\(conv_{CO2} = 90\%\)</span></p>
-<p>Total carbon intensity: <span class="arithmatex">\({ci}_{MeOH} = \ meoh_{h2}\ ci_{H2} + \frac{meoh_{co2}}{conv_{CO2}}\ ci_{co2} + meoh_{el}\ ci_{grid} \approx 6.8\frac{g\ CO_{2}eq}{MJ_{MeOH}}\)</span></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th style="text-align: center;">Symbol</th>
+<th style="text-align: center;">Example value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Input of hydrogen</td>
+<td style="text-align: center;">$meoh_{H2}</td>
+<td style="text-align: center;">1.2 \color{grey}{\left.MJ_{H2}\middle/MJ_{MeOH}\right.}</td>
+</tr>
+<tr>
+<td>Carbon intensity of hydrogen</td>
+<td style="text-align: center;">{ci}_{H2}</td>
+<td style="text-align: center;">4.3 \color{grey}{\left.g\,CO_2\,eq\middle/MJ\right.}</td>
+</tr>
+<tr>
+<td>Input of CO<sub>2</sub></td>
+<td style="text-align: center;">$meoh_{CO2}</td>
+<td style="text-align: center;">0.075 \color{grey}{\left.kg CO_{2}\middle/MJ_{MeOH}\right.}$</td>
+</tr>
+<tr>
+<td>Input of electricity</td>
+<td style="text-align: center;">$meoh_{el}</td>
+<td style="text-align: center;">0.05  \color{grey}{\left.MJ_{el}\middle/MJ_{MeOH}\right.}</td>
+</tr>
+<tr>
+<td>Share of RFNBO in the output</td>
+<td style="text-align: center;">$s_{RFNBO_ MeOH}</td>
+<td style="text-align: center;"> 91\color{grey}{\%}$</td>
+</tr>
+<tr>
+<td>Conversion rate of CO<sub>2</sub></td>
+<td style="text-align: center;">$conv_{CO2}</td>
+<td style="text-align: center;">90\color{grey}{\%}$</td>
+</tr>
+</tbody>
+</table>
+<p>Total carbon intensity: </p>
+<div class="arithmatex">\[{ci}_{MeOH} = meoh_{h2} \times ci_{H2} + \frac{meoh_{CO2}}{conv_{CO2}}\ ci_{co2} + meoh_{el} \times ci_{grid} \approx 6.8\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{MeOH}\right.}\]</div>
 </details>
 <details>
 <summary>Fuel transport</summary>
@@ -1529,8 +1639,31 @@
 </ul>
 <h3 id="example-in-this-case-study_5">Example in this case study</h3>
 <p>The ship is loaded with 80% of the methanol produced in this pathway and 20% fossil methanol. The return trip is empty. Transport emissions are calculated by dividing the overall emissions of both trips by the overall fuel transported and allocated by energy to all fuels.</p>
-<p>Emissions caused by transport: <span class="arithmatex">\(e_{transp} = 1\frac{g\ CO_{2}eq}{MJ_{fuel\_ transported}}\)</span></p>
-<p>Total carbon intensity: <span class="arithmatex">\({ci}_{MeOH\_ transported} = \ {ci}_{MeOH} + e_{transp} \approx 7.8\frac{g\ CO_{2}eq}{MJ_{MeOH\_ transported}}\)</span></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th style="text-align: center;">Symbol</th>
+<th style="text-align: center;">Example value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Emissions caused by transport</td>
+<td style="text-align: center;">$e_{transp}</td>
+<td style="text-align: center;">1 \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{fuel_transported}\right.}$</td>
+</tr>
+</tbody>
+</table>
+<details class="info">
+<summary>Transport emissions calculation</summary>
+<p>In general, the emissions shall be calculated by calculating the overall emissions caused by all transport operations, including empty return trips and fugitive emissions. All emissions, also for upstream fuel production, should be included. They should then be attributed to all transported products.</p>
+</details>
+<details class="info">
+<summary>Using the transported fuel</summary>
+<p>If the ship uses part of the transported fuel to propell itself, the amount arriving at destination is lower than the amount charged. In that case, the calculation should obviously take into account the upstream and combustion emissions from the fuel burnt in the ship, in the current example a mix of the RFNBO and fossil methanol, and should allocate them to the amount of fuel that arrives at destination.</p>
+</details>
+<p>Total carbon intensity: <span class="arithmatex">\({ci}_{MeOH\_ transported} = \ {ci}_{MeOH} + e_{transp} \approx 7.8\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{MeOH\_at\_destination}\right.}\)</span></p>
 </details>
 <details>
 <summary>Hydrogen and oxygen production</summary>
@@ -1540,12 +1673,40 @@
 <li>If oxygen is sold as a product, emissions can be allocated to it by economic value (average factory-gate value of the products over the last three years). <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1185&amp;qid=1706886791166#anx_1">GHG.15</a> <a href="../faq/#Q49">Q49</a> </li>
 </ul>
 <h3 id="example-in-this-case-study_6">Example in this case study</h3>
-<p>Mass ratio of oxygen to hydrogen: <span class="arithmatex">\(m_{O2} = 8\frac{kg{\ O}_{2}}{kg\ H_{2}}\)</span></p>
-<p>Average factory-gate price of hydrogen: <span class="arithmatex">\(p_{H2} = 5\frac{€}{kg\ H_{2}}\)</span></p>
-<p>Average factory-gate price of oxygen: <span class="arithmatex">\(p_{O2} = 0.1\frac{€}{kg\ O_{2}}\)</span></p>
-<p>Total emissions for electrolysis (in this case assumed to be only from electrolysis):<span class="arithmatex">\(\ e_{ely\_ aux} = 0.5\frac{g\ CO_{2}eq}{MJ_{H2}}\)</span></p>
-<p>Allocation of emissions to hydrogen: <span class="arithmatex">\(alloc_{H2} = \ \frac{p_{H2}}{p_{O2}m_{O2} + p_{H2}} \approx 86\%\)</span></p>
-<p>Emissions attributed to hydrogen: <span class="arithmatex">\(e_{ely\_ H2} = e_{ely\_ aux}\ alloc_{H2} \approx 0.43\frac{g\ CO_{2}eq}{MJ\ H_{2}}\)</span></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th style="text-align: center;">Symbol</th>
+<th style="text-align: center;">Example value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mass ratio of oxygen to hydrogen</td>
+<td style="text-align: center;">$m_{O2}</td>
+<td style="text-align: center;">8 \color{grey}{\left.kg {O}<em 2="2">{2}\middle/kg H</em>$}\right.</td>
+</tr>
+<tr>
+<td>Average factory-gate price of hydrogen</td>
+<td style="text-align: center;">$p_{H2}</td>
+<td style="text-align: center;">5 \color{grey}{\left.€\middle/kg H_{2}\right.}$</td>
+</tr>
+<tr>
+<td>Average factory-gate price of oxygen</td>
+<td style="text-align: center;">$p_{O2}</td>
+<td style="text-align: center;">0.1 \color{grey}{\left.€\middle/kg O_{2}\right.}$</td>
+</tr>
+<tr>
+<td>Total emissions for electrolysis (in this case assumed to be only from electrolysis)</td>
+<td style="text-align: center;">$e_{ely_aux}</td>
+<td style="text-align: center;">0.5 \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{H2}\right.}$</td>
+</tr>
+</tbody>
+</table>
+<p>Allocation of emissions to hydrogen: </p>
+<div class="arithmatex">\[alloc_{H2} = \frac{p_{H2}}{p_{O2}m_{O2} + p_{H2}} \approx 86\color{grey}{\%}\]</div>
+<p>Emissions attributed to hydrogen: <span class="arithmatex">\(e_{ely\_ H2} = e_{ely\_aux} \times alloc_{H2} \approx 0.43\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{H2}\right.}\)</span></p>
 </details>
 <details>
 <summary>Use of waste heat</summary>
@@ -1562,7 +1723,7 @@
 <h2 id="final-fuel-production">Final fuel production</h2>
 <h3 id="share-of-rfnbo-in-each-output-stream">Share of RFNBO in each output stream</h3>
 <ul>
-<li>The share of RFNBO in all outputs should be equal. <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2018.328.01.0082.01.ENG#030.002">RED II 30</a> [Q-Annex2]<a href="../faq/#Q47">Q47</a> <a href="../faq/#Q51">Q51</a> <a href="../faq/#Q52">Q52</a> </li>
+<li>The share of RFNBO in all outputs should be equal. <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2018.328.01.0082.01.ENG#030.002">RED II 30</a> <a href="https://energy.ec.europa.eu/document/download/21fb4725-7b32-4264-9f36-96cd54cff148_en?filename=2024%2003%2014%20Document%20on%20Certification.pdf">Q-Annex2</a><a href="../faq/#Q47">Q47</a> <a href="../faq/#Q51">Q51</a> <a href="../faq/#Q52">Q52</a> </li>
 </ul>
 <h3 id="share-of-overall-rfnbo-in-the-output">Share of overall RFNBO in the output</h3>
 <ul>
@@ -1574,14 +1735,48 @@
 </ul>
 <h3 id="example-in-this-case-study_8">Example in this case study</h3>
 <p>For illustration purposes, the methanol-to-synfuels process is modified and simplified to only produce diesel and kerosene and only use methanol, hydrogen and heat as inputs. In this example, we assume that the heat is not contributing to the heating value of the fuel.</p>
-<p>Energy share of diesel in output: <span class="arithmatex">\(s_{diesel} = 44\%\)</span></p>
-<p>Energy share of kerosene in output: <span class="arithmatex">\(s_{kerosene} = 56\%\)</span></p>
-<p>Input of methanol: <span class="arithmatex">\(fuel_{MeOH} = 1.1\frac{MJ\ MeOH}{MJ\ fuel}\)</span></p>
-<p>Input of hydrogen: <span class="arithmatex">\(fuel_{H2} = 0.1\frac{MJ\ H_{2}}{MJ\ fuel}\)</span></p>
-<p>Input of heat: <span class="arithmatex">\(fuel_{heat} = 0.2\frac{MJ\ heat}{MJ\ fuel}\)</span></p>
-<p>Share of RFNBO: <span class="arithmatex">\(s_{RFNBO\_ fuels} = \ \frac{s_{RFNBO\_ MeOH} \times {fuel}_{MeOH} + 1 \times \ {fuel}_{H2}}{{fuel}_{MeOH} + {fuel}_{H2}} \approx 92\%\)</span></p>
-<p>Emissions attributed to all fuels:<span class="arithmatex">\(\ {E = ci}_{fuels} = \ {fuel}_{MeOH}\ {ci}_{MeOH\_ transported} + {fuel}_{h2}\ ci_{H2} + {fuel}_{heat}\ ci_{heat} \approx 8.6\frac{g\ CO_{2}eq}{MJ\ fuel}\)</span></p>
-<p>Emission reduction compared to the fossil fuel comparator: <span class="arithmatex">\(Savings = \ \frac{E_{F} - E}{E_{F}} = \frac{94 - 8.6}{94} \approx 91\%\)</span></p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th style="text-align: center;">Symbol</th>
+<th style="text-align: center;">Example value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Energy share of diesel in output</td>
+<td style="text-align: center;">$s_{diesel}</td>
+<td style="text-align: center;">44\color{grey}{\%}$</td>
+</tr>
+<tr>
+<td>Energy share of kerosene in output</td>
+<td style="text-align: center;">$s_{kerosene}</td>
+<td style="text-align: center;">56\color{grey}{\%}$</td>
+</tr>
+<tr>
+<td>Input of methanol</td>
+<td style="text-align: center;">$fuel_{MeOH}</td>
+<td style="text-align: center;">1.1 \color{grey}{\left.MJ MeOH\middle/MJ fuel\right.}$</td>
+</tr>
+<tr>
+<td>Input of hydrogen</td>
+<td style="text-align: center;">$fuel_{H2}</td>
+<td style="text-align: center;">0.1 \color{grey}{\left.MJ H_{2}\middle/MJ fuel\right.}$</td>
+</tr>
+<tr>
+<td>Input of heat</td>
+<td style="text-align: center;">$fuel_{heat}</td>
+<td style="text-align: center;">0.2 \color{grey}{\left.MJ heat\middle/MJ fuel\right.}$</td>
+</tr>
+</tbody>
+</table>
+<p>Emissions attributed to all fuels:</p>
+<div class="arithmatex">\[E = ci_{fuels} = {fuel}_{MeOH} \times {ci}_{MeOH\_transported} + {fuel}_{h2} \times ci_{H2} + {fuel}_{heat} \times ci_{heat} \approx 8.6\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{fuel}\right.}\]</div>
+<p>Emission reduction compared to the fossil fuel comparator: </p>
+<div class="arithmatex">\[Savings = \frac{E_{F} - E}{E_{F}} = \frac{94 - 8.6}{94} \approx 91\color{grey}{\%}\]</div>
+<p>Share of RFNBO: 
+<span class="arithmatex">\(<span class="arithmatex">\(s_{RFNBO\_fuels} = \frac{s_{RFNBO\_MeOH} \times {fuel}_{MeOH} + 1 \times \ {fuel}_{H2}}{{fuel}_{MeOH} + {fuel}_{H2}} \approx 92\color{grey}{\%}\)</span>\)</span></p>
 </details>
 
 
