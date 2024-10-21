@@ -1415,10 +1415,10 @@
 <p><strong>Direct connection</strong> if renewable production generating installation came into operation not earlier than 36 months before the installation producing renewable liquid and gaseous transport fuel of non-biological origin <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1184#art_3">ADD.3</a> <a href="../faq/#Q12">Q12</a> <a href="../faq/#Q13">Q13</a> <a href="../faq/#Q14">Q14</a> </p>
 </li>
 <li>
-<p>In a <strong>bidding zone</strong> where the average proportion of <strong>renewable electricity exceeded 90%</strong> in the previous calendar year (and for the five following years). Limited to full load hours \&lt; 8760 hours x RES-E share <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1184#art_4">ADD.4</a> <a href="../faq/#Q15">Q15</a> <a href="../faq/#Q16">Q16</a> <a href="../faq/#Q17">Q17</a> </p>
+<p>In a <strong>bidding zone</strong> where the average proportion of <strong>renewable electricity exceeded 90%</strong> in the previous calendar year (and for the five following years). Limited to <span class="arithmatex">\(\text{full load hours} &lt; 8760 hours x RES-E share\)</span> <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1184#art_4">ADD.4</a> <a href="../faq/#Q15">Q15</a> <a href="../faq/#Q16">Q16</a> <a href="../faq/#Q17">Q17</a> </p>
 </li>
 <li>
-<p>In a <strong>bidding zone</strong> where the <strong>emission intensity of electricity is lower than 18 gCO2eq/MJ</strong> with renewable PPAs and temporal and geographical correlation <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1184#art_4">ADD.4</a></p>
+<p>In a <strong>bidding zone</strong> where the **emission intensity of electricity is lower than <span class="arithmatex">\(18\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{hydrogen}\right.}\)</span> ** with renewable PPAs and temporal and geographical correlation <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1184#art_4">ADD.4</a></p>
 </li>
 <li>
 <p>During <strong>imbalance settlement period</strong> <a href="https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A32023R1184#art_4">ADD.4</a> <a href="../faq/#Q18">Q18</a> </p>
@@ -1598,12 +1598,12 @@
 <tr>
 <td>Input of hydrogen</td>
 <td style="text-align: center;"><span class="arithmatex">\(meoh_{H2}\)</span></td>
-<td style="text-align: center;">$1.2 \color{grey}{\left.MJ_{H2}\middle/MJ_{MeOH}\right.}</td>
+<td style="text-align: center;"><span class="arithmatex">\(1.2\ \color{grey}{\left.MJ_{H2}\middle/MJ_{MeOH}\right.}\)</span></td>
 </tr>
 <tr>
 <td>Carbon intensity of hydrogen</td>
 <td style="text-align: center;"><span class="arithmatex">\({ci}_{H2}\)</span></td>
-<td style="text-align: center;">$4.3 \color{grey}{\left.g\,CO_2\,eq\middle/MJ\right.}</td>
+<td style="text-align: center;"><span class="arithmatex">\(4.3\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ\right.}\)</span></td>
 </tr>
 <tr>
 <td>Input of CO<sub>2</sub></td>
@@ -1613,7 +1613,7 @@
 <tr>
 <td>Input of electricity</td>
 <td style="text-align: center;"><span class="arithmatex">\(meoh_{el}\)</span></td>
-<td style="text-align: center;">$0.05 \color{grey}{\left.MJ_{el}\middle/MJ_{MeOH}\right.}</td>
+<td style="text-align: center;"><span class="arithmatex">\(0.05\ \color{grey}{\left.MJ_{el}\middle/MJ_{MeOH}\right.}\)</span></td>
 </tr>
 <tr>
 <td>Share of RFNBO in the output</td>
@@ -1655,14 +1655,14 @@
 </tr>
 </tbody>
 </table>
-<details class="info">
-<summary>Transport emissions calculation</summary>
+<div class="admonition info">
+<p class="admonition-title">Transport emissions calculation</p>
 <p>In general, the emissions shall be calculated by calculating the overall emissions caused by all transport operations, including empty return trips and fugitive emissions. All emissions, also for upstream fuel production, should be included. They should then be attributed to all transported products.</p>
-</details>
-<details class="info">
-<summary>Using the transported fuel</summary>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Using the transported fuel</p>
 <p>If the ship uses part of the transported fuel to propell itself, the amount arriving at destination is lower than the amount charged. In that case, the calculation should obviously take into account the upstream and combustion emissions from the fuel burnt in the ship, in the current example a mix of the RFNBO and fossil methanol, and should allocate them to the amount of fuel that arrives at destination.</p>
-</details>
+</div>
 <p>Total carbon intensity: <span class="arithmatex">\({ci}_{MeOH\_ transported} = {ci}_{MeOH} + e_{transp} \approx 7.8\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{MeOH\_at\_destination}\right.}\)</span></p>
 </details>
 <details>
@@ -1690,12 +1690,12 @@
 <tr>
 <td>Average factory-gate price of hydrogen</td>
 <td style="text-align: center;"><span class="arithmatex">\(p_{H2}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(5\ \color{grey}{\left.€\middle/kg\ H_{2}\right.}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(5\ \color{grey}{\left.\unicode{x20AC}\middle/kg\ H_{2}\right.}\)</span></td>
 </tr>
 <tr>
 <td>Average factory-gate price of oxygen</td>
 <td style="text-align: center;"><span class="arithmatex">\(p_{O2}\)</span></td>
-<td style="text-align: center;"><span class="arithmatex">\(0.1\ \color{grey}{\left.€\middle/kg\ O_{2}\right.}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(0.1\ \color{grey}{\left.\unicode{x20AC}\middle/kg\ O_{2}\right.}\)</span></td>
 </tr>
 <tr>
 <td>Total emissions for electrolysis (in this case assumed to be only from electrolysis)</td>
@@ -1765,6 +1765,11 @@
 <td style="text-align: center;"><span class="arithmatex">\(0.1\ \color{grey}{\left.MJ\ H_{2}\middle/MJ\ fuel\right.}\)</span></td>
 </tr>
 <tr>
+<td>Share of RFNBO in hydrogen input</td>
+<td style="text-align: center;"><span class="arithmatex">\(s_{RFNBO\_H2}\)</span></td>
+<td style="text-align: center;"><span class="arithmatex">\(100\color{grey}{\%}\)</span></td>
+</tr>
+<tr>
 <td>Input of heat</td>
 <td style="text-align: center;"><span class="arithmatex">\(fuel_{heat}\)</span></td>
 <td style="text-align: center;"><span class="arithmatex">\(0.2\ \color{grey}{\left.MJ\ heat\middle/MJ\ fuel\right.}\)</span></td>
@@ -1775,8 +1780,8 @@
 <div class="arithmatex">\[E = ci_{fuels} = {fuel}_{MeOH} \times {ci}_{MeOH\_transported} + {fuel}_{h2} \times ci_{H2} + {fuel}_{heat} \times ci_{heat} \approx 8.6\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{fuel}\right.}\]</div>
 <p>Emission reduction compared to the fossil fuel comparator: </p>
 <div class="arithmatex">\[Savings = \frac{E_{F} - E}{E_{F}} = \frac{94 - 8.6}{94} \approx 91\color{grey}{\%}\]</div>
-<p>Share of RFNBO: 
-<span class="arithmatex">\(<span class="arithmatex">\(s_{RFNBO\_fuels} = \frac{s_{RFNBO\_MeOH} \times {fuel}_{MeOH} + 1 \times \ {fuel}_{H2}}{{fuel}_{MeOH} + {fuel}_{H2}} \approx 92\color{grey}{\%}\)</span>\)</span></p>
+<p>Share of RFNBO: </p>
+<div class="arithmatex">\[s_{RFNBO\_fuels} = \frac{s_{RFNBO\_MeOH} \times {fuel}_{MeOH} + s_{RFNBO\_H2} \times \ {fuel}_{H2}}{{fuel}_{MeOH} + {fuel}_{H2}} \approx 92\color{grey}{\%}\]</div>
 </details>
 
 
