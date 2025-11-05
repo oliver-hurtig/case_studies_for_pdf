@@ -197,28 +197,6 @@
       
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../.." class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Overview
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
     
   
   
@@ -232,10 +210,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
             
   
   
@@ -248,8 +226,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_2">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
             RFNBO case studies
           </label>
@@ -559,10 +537,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
             
   
   
@@ -575,8 +553,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             FAQ
           </label>
@@ -1220,16 +1198,16 @@
 </tbody>
 </table>
 <h2 id="calculation">Calculation</h2>
-<p>Energy coming out of the FT reaction: 
-$$
-{En}<em H2="H2">{output} = \left({prod}</em>
-$$} \times \eta_{shift} + el_{grid_shift} \times Share_{heat_to_heating_value} \right)  \times  \eta_{FT} = 234.3 \color{grey}{GWh</p>
+<p>Energy coming out of the FT reaction: </p>
+<div class="arithmatex">\[
+{En}_{output} = \left({prod}_{H2} \times \eta_{shift} + el_{grid\_shift} \times Share_{heat\_to\_heating\_value} \right)  \times  \eta_{FT} = 234.3\ \color{grey}{GWh}
+\]</div>
 <p>This is lower than the hydrogen input, so the electricity does not have to be considered a relevant input.</p>
 <p>Total GHG intensity: </p>
 <div class="arithmatex">\[
 {E}_{kerosene} = \frac{\left({prod}_{RFNBO-H_2} + {prod}_{LC-H_2} \right) \times {CI}_{H2} + el_{grid\_shift}  \times CI_{grid\_shift}}{{En}_{output}  \times  \eta_{FT}} \approx 21.4\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{kerosene}\right.}
 \]</div>
-<details class="success">
+<details class="success" open="open">
 <summary>Threshold reached</summary>
 <p>The threshold of <span class="arithmatex">\(28.2\ \color{grey}{\left.g\,CO_2\,eq\middle/MJ_{hydrogen}\right.}\)</span> is met. We can declare the fuel as RFNBO (or low carbon fuel).</p>
 </details>
@@ -1237,7 +1215,7 @@ $$} \times \eta_{shift} + el_{grid_shift} \times Share_{heat_to_heating_value} \
 <div class="arithmatex">\[
 Share_{RFNBO- H2} = \frac{{prod}_{RFNBO-H_2}}{{prod}_{RFNBO-H_2} + {prod}_{LC-H_2}} \approx 91\color{grey}{\%}
 \]</div>
-<details class="info">
+<details class="info" open="open">
 <summary>If looking only at the shift reaction</summary>
 <p>Energy coming out of the shift reaction: </p>
 <div class="arithmatex">\[
